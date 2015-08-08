@@ -1,7 +1,4592 @@
-[{
-    "author": "Sivas",
-    "text": "This is one comment"
-}, {
-    "author": "Subramaniam",
-    "text": "This is *another* comment"
-}]
+{
+    "took": 49.72,
+    "total": 3413,
+    "selected_tags": [{
+        "tag": "mobiles"
+    }],
+    "selected_facets": [{
+        "label": "Mobiles",
+        "tag": "mobiles",
+        "count": 3413,
+        "is_selected": true
+    }],
+    "folders": [{
+        "uri": "categories",
+        "name": "Categories",
+        "facets": [{
+            "label": "Adapters",
+            "tag": "adapters",
+            "count": 50,
+            "is_selected": false
+        }, {
+            "label": "Air Conditioners",
+            "tag": "air-conditioners",
+            "count": 1002,
+            "is_selected": false
+        }, {
+            "label": "All Headphones",
+            "tag": "all-headphones",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "All Headsets",
+            "tag": "all-headsets",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "All Speakers",
+            "tag": "all-speakers",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Batteries",
+            "tag": "mobile-batteries",
+            "count": 77,
+            "is_selected": false
+        }, {
+            "label": "Cables",
+            "tag": "mobile-cables",
+            "count": 506,
+            "is_selected": false
+        }, {
+            "label": "Cameras",
+            "tag": "cameras",
+            "count": 667,
+            "is_selected": false
+        }, {
+            "label": "Car Chargers",
+            "tag": "mobile-car-chargers",
+            "count": 67,
+            "is_selected": false
+        }, {
+            "label": "Car Cradles",
+            "tag": "mobile-car-cradles",
+            "count": 46,
+            "is_selected": false
+        }, {
+            "label": "Car Kits",
+            "tag": "mobile-car-kits",
+            "count": 16,
+            "is_selected": false
+        }, {
+            "label": "Chargers",
+            "tag": "mobile-chargers",
+            "count": 249,
+            "is_selected": false
+        }, {
+            "label": "Coffee Makers",
+            "tag": "coffee-makers",
+            "count": 103,
+            "is_selected": false
+        }, {
+            "label": "Desktops",
+            "tag": "desktops",
+            "count": 172,
+            "is_selected": false
+        }, {
+            "label": "Electric Cookers",
+            "tag": "electric-cookers",
+            "count": 190,
+            "is_selected": false
+        }, {
+            "label": "Electric Jugs / Travel Kettles",
+            "tag": "electric-jugs",
+            "count": 101,
+            "is_selected": false
+        }, {
+            "label": "Epilators",
+            "tag": "epilators",
+            "count": 28,
+            "is_selected": false
+        }, {
+            "label": "External Hard Disks",
+            "tag": "external-hard-disks",
+            "count": 162,
+            "is_selected": false
+        }, {
+            "label": "Food Processors",
+            "tag": "food-processors",
+            "count": 57,
+            "is_selected": false
+        }, {
+            "label": "Hair Curlers",
+            "tag": "hair-curlers",
+            "count": 50,
+            "is_selected": false
+        }, {
+            "label": "Hair Dryers",
+            "tag": "hair-dryers",
+            "count": 132,
+            "is_selected": false
+        }, {
+            "label": "Hair Straighteners",
+            "tag": "hair-straighteners",
+            "count": 188,
+            "is_selected": false
+        }, {
+            "label": "Hair Stylers",
+            "tag": "hair-stylers",
+            "count": 49,
+            "is_selected": false
+        }, {
+            "label": "Hand Blenders",
+            "tag": "hand-blenders",
+            "count": 1197,
+            "is_selected": false
+        }, {
+            "label": "Home Entertainment Speakers",
+            "tag": "he-speakers",
+            "count": 266,
+            "is_selected": false
+        }, {
+            "label": "Home Theatres",
+            "tag": "home-theatres",
+            "count": 174,
+            "is_selected": false
+        }, {
+            "label": "Induction Cooktops",
+            "tag": "induction-cooktops",
+            "count": 354,
+            "is_selected": false
+        }, {
+            "label": "Irons",
+            "tag": "irons",
+            "count": 984,
+            "is_selected": false
+        }, {
+            "label": "Juicer Mixer Grinders",
+            "tag": "juicer-mixer-grinders",
+            "count": 1044,
+            "is_selected": false
+        }, {
+            "label": "Keyboards",
+            "tag": "keyboards",
+            "count": 13,
+            "is_selected": false
+        }, {
+            "label": "Landlines",
+            "tag": "landlines",
+            "count": 165,
+            "is_selected": false
+        }, {
+            "label": "Laptop Batteries",
+            "tag": "laptop-batteries",
+            "count": 224,
+            "is_selected": false
+        }, {
+            "label": "Laptop Headphones",
+            "tag": "laptop-headphones",
+            "count": 310,
+            "is_selected": false
+        }, {
+            "label": "Laptop Headsets",
+            "tag": "laptop-headsets",
+            "count": 302,
+            "is_selected": false
+        }, {
+            "label": "Laptop Speakers",
+            "tag": "laptop-speakers",
+            "count": 386,
+            "is_selected": false
+        }, {
+            "label": "Laptops",
+            "tag": "laptops",
+            "count": 420,
+            "is_selected": false
+        }, {
+            "label": "Memory Cards",
+            "tag": "mobile-memory-cards",
+            "count": 1258,
+            "is_selected": false
+        }, {
+            "label": "Mice",
+            "tag": "mice",
+            "count": 408,
+            "is_selected": false
+        }, {
+            "label": "Mobile Headphones",
+            "tag": "mobile-headphones",
+            "count": 424,
+            "is_selected": false
+        }, {
+            "label": "Mobile Headsets",
+            "tag": "mobile-headsets",
+            "count": 411,
+            "is_selected": false
+        }, {
+            "label": "Mobile Speakers",
+            "tag": "mobile-speakers",
+            "count": 73,
+            "is_selected": false
+        }, {
+            "label": "Mobiles",
+            "tag": "mobiles",
+            "count": 3413,
+            "is_selected": true
+        }, {
+            "label": "Monitors",
+            "tag": "monitors",
+            "count": 438,
+            "is_selected": false
+        }, {
+            "label": "Mp3 Players",
+            "tag": "mp3-players",
+            "count": 119,
+            "is_selected": false
+        }, {
+            "label": "Pen Drives",
+            "tag": "pen-drives",
+            "count": 5285,
+            "is_selected": false
+        }, {
+            "label": "Pop-up Toasters",
+            "tag": "pop-up-toasters",
+            "count": 146,
+            "is_selected": false
+        }, {
+            "label": "Printers",
+            "tag": "printers",
+            "count": 253,
+            "is_selected": false
+        }, {
+            "label": "Refrigerators",
+            "tag": "refrigerators",
+            "count": 483,
+            "is_selected": false
+        }, {
+            "label": "Sandwich and Roti Makers",
+            "tag": "sandwich-roti-makers",
+            "count": 156,
+            "is_selected": false
+        }, {
+            "label": "Scanners",
+            "tag": "scanners",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Shavers",
+            "tag": "shavers",
+            "count": 108,
+            "is_selected": false
+        }, {
+            "label": "Stabilizers",
+            "tag": "stabilizers",
+            "count": 35,
+            "is_selected": false
+        }, {
+            "label": "Tablets",
+            "tag": "tablets",
+            "count": 417,
+            "is_selected": false
+        }, {
+            "label": "Trimmers",
+            "tag": "trimmers",
+            "count": 300,
+            "is_selected": false
+        }, {
+            "label": "TVs",
+            "tag": "tvs",
+            "count": 1450,
+            "is_selected": false
+        }, {
+            "label": "Vacuum Cleaners",
+            "tag": "vacuum-cleaners",
+            "count": 28,
+            "is_selected": false
+        }, {
+            "label": "Video Players",
+            "tag": "video-players",
+            "count": 85,
+            "is_selected": false
+        }, {
+            "label": "Washing Machines",
+            "tag": "washing-machines",
+            "count": 243,
+            "is_selected": false
+        }, {
+            "label": "Water Purifiers",
+            "tag": "water-purifiers",
+            "count": 349,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "brands",
+        "name": "Brands",
+        "facets": [{
+            "label": "4Charge",
+            "tag": "4charge",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Accord",
+            "tag": "accord",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Acer",
+            "tag": "acer",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "Adata",
+            "tag": "adata",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Adcom",
+            "tag": "adcom",
+            "count": 27,
+            "is_selected": false
+        }, {
+            "label": "Advanta",
+            "tag": "advanta",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Advik",
+            "tag": "advik",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Agaro",
+            "tag": "agaro",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Aiptek",
+            "tag": "aiptek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Airfone",
+            "tag": "airfone",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Airnet",
+            "tag": "airnet",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Airtyme",
+            "tag": "airtyme",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "Akai",
+            "tag": "akai",
+            "count": 17,
+            "is_selected": false
+        }, {
+            "label": "AKG",
+            "tag": "akg",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Alcatel",
+            "tag": "alcatel",
+            "count": 41,
+            "is_selected": false
+        }, {
+            "label": "Alpha",
+            "tag": "alpha",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Altec",
+            "tag": "altec",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "AmazePad",
+            "tag": "amazepad",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ambrane",
+            "tag": "ambrane",
+            "count": 2,
+            "is_selected": false
+        }, {
+            "label": "Amkette",
+            "tag": "amkette",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Amtrak",
+            "tag": "amtrak",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Amzer",
+            "tag": "amzer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "AndAlso",
+            "tag": "andalso",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Andis",
+            "tag": "andis",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Angry Birds",
+            "tag": "angry-birds",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "anjalimix",
+            "tag": "anjalimix",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Anker",
+            "tag": "anker",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "AOC",
+            "tag": "aoc",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Apple",
+            "tag": "apple",
+            "count": 25,
+            "is_selected": false
+        }, {
+            "label": "Archos",
+            "tag": "archos",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Arise",
+            "tag": "arise",
+            "count": 28,
+            "is_selected": false
+        }, {
+            "label": "Artis",
+            "tag": "artis",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ashrit",
+            "tag": "ashrit",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Asia Power",
+            "tag": "asia-power",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Asus",
+            "tag": "asus",
+            "count": 8,
+            "is_selected": false
+        }, {
+            "label": "ATEK",
+            "tag": "atek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Atitude",
+            "tag": "atitude",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Atom",
+            "tag": "atom",
+            "count": 2,
+            "is_selected": false
+        }, {
+            "label": "Audio Technica",
+            "tag": "audio-technica",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Autodrive",
+            "tag": "autodrive",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Auxus",
+            "tag": "auxus",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "AVIS",
+            "tag": "avis",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Babyliss",
+            "tag": "babyliss",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Bajaj",
+            "tag": "bajaj",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Baltra",
+            "tag": "baltra",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Bandridge",
+            "tag": "bandridge",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BANG & OLUFSEN",
+            "tag": "bang-olufsen",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BAslate",
+            "tag": "baslate",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Beetel",
+            "tag": "beetel",
+            "count": 6,
+            "is_selected": false
+        }, {
+            "label": "Belkin",
+            "tag": "belkin",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "BenQ",
+            "tag": "benq",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Binatone",
+            "tag": "binatone",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Black & Decker",
+            "tag": "black-decker",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Black Element E",
+            "tag": "black-element-e",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BlackBerry",
+            "tag": "blackberry",
+            "count": 39,
+            "is_selected": false
+        }, {
+            "label": "Blaupunkt",
+            "tag": "blaupunkt",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Bling",
+            "tag": "bling",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Blue Star",
+            "tag": "blue-star",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BlueAnt",
+            "tag": "blueant",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Bosch",
+            "tag": "bosch",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Bose",
+            "tag": "bose",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Boss",
+            "tag": "boss",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BQ",
+            "tag": "bq",
+            "count": 23,
+            "is_selected": false
+        }, {
+            "label": "Braun",
+            "tag": "braun",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Brite",
+            "tag": "brite",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Brother",
+            "tag": "brother",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "BSNL",
+            "tag": "bsnl",
+            "count": 12,
+            "is_selected": false
+        }, {
+            "label": "Bspeech",
+            "tag": "bspeech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Buffalo",
+            "tag": "buffalo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Burgundy",
+            "tag": "burgundy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Butterfly",
+            "tag": "butterfly",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Byond",
+            "tag": "byond",
+            "count": 15,
+            "is_selected": false
+        }, {
+            "label": "Byte Corseca",
+            "tag": "byte-corseca",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cafe Coffee Day",
+            "tag": "cafe-coffee-day",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Callmate",
+            "tag": "callmate",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Canon",
+            "tag": "canon",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Capdase",
+            "tag": "capdase",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Capitel",
+            "tag": "capitel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Carrier",
+            "tag": "carrier",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Case Logic",
+            "tag": "case-logic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Case-Mate",
+            "tag": "case-mate",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Casio",
+            "tag": "casio",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cata",
+            "tag": "cata",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Caterpillar",
+            "tag": "caterpillar",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Celkon",
+            "tag": "celkon",
+            "count": 139,
+            "is_selected": false
+        }, {
+            "label": "Champion",
+            "tag": "champion",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "Chef Pro",
+            "tag": "chef-pro",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Circle",
+            "tag": "circle",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cisco",
+            "tag": "cisco",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Compaq",
+            "tag": "compaq",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cooler Master",
+            "tag": "cooler-master",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cooler Master Choiix",
+            "tag": "cooler-master-choiix",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Corioliss",
+            "tag": "corioliss",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Corsair",
+            "tag": "corsair",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cowon",
+            "tag": "cowon",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Creative",
+            "tag": "creative",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Croma",
+            "tag": "croma",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "Crompton Greaves",
+            "tag": "crompton-greaves",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cuisinart",
+            "tag": "cuisinart",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "CyberPower",
+            "tag": "cyberpower",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Cygnett",
+            "tag": "cygnett",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Daaku",
+            "tag": "daaku",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Daikin",
+            "tag": "daikin",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Dapic",
+            "tag": "dapic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Datawind",
+            "tag": "datawind",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "DBEST",
+            "tag": "dbest",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Deco",
+            "tag": "deco",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Dell",
+            "tag": "dell",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "delonghi",
+            "tag": "delonghi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Delta",
+            "tag": "delta",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Delton",
+            "tag": "delton",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Denon",
+            "tag": "denon",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Desire",
+            "tag": "desire",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Detna",
+            "tag": "detna",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Devante",
+            "tag": "devante",
+            "count": 13,
+            "is_selected": false
+        }, {
+            "label": "DigiFlip",
+            "tag": "digiflip",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Digimac",
+            "tag": "digimac",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "Digitab",
+            "tag": "digitab",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Digitek",
+            "tag": "digitek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Disney",
+            "tag": "disney",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Divoom",
+            "tag": "divoom",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Domo",
+            "tag": "domo",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "Dr.Dre Beats",
+            "tag": "drdre-beats",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ducasso",
+            "tag": "ducasso",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "E-Fab",
+            "tag": "e-fab",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "EAFT",
+            "tag": "eaft",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Edge",
+            "tag": "edge",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Edifier",
+            "tag": "edifier",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Eiffel",
+            "tag": "eiffel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Elchim",
+            "tag": "elchim",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Elecom",
+            "tag": "elecom",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Electrolux",
+            "tag": "electrolux",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "EMTEC",
+            "tag": "emtec",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Energizer",
+            "tag": "energizer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Enter",
+            "tag": "enter",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Envent",
+            "tag": "envent",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Enzatec",
+            "tag": "enzatec",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Epson",
+            "tag": "epson",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Equity",
+            "tag": "equity",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Essel Nasaka",
+            "tag": "essel-nasaka",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "ETI",
+            "tag": "eti",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Eureka Forbes",
+            "tag": "eureka-forbes",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Eurolex",
+            "tag": "eurolex",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Euroline",
+            "tag": "euroline",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Eveready",
+            "tag": "eveready",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Evio",
+            "tag": "evio",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Exilient",
+            "tag": "exilient",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ezyhome",
+            "tag": "ezyhome",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "F&D",
+            "tag": "fd",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fabiano",
+            "tag": "fabiano",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fatboy",
+            "tag": "fatboy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fenda",
+            "tag": "fenda",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fly",
+            "tag": "fly",
+            "count": 47,
+            "is_selected": false
+        }, {
+            "label": "Focal",
+            "tag": "focal",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Forward",
+            "tag": "forward",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "FOST",
+            "tag": "fost",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Freecom",
+            "tag": "freecom",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Frontech",
+            "tag": "frontech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fuje",
+            "tag": "fuje",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fujezone",
+            "tag": "fujezone",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Fujifilm",
+            "tag": "fujifilm",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Fujitsu",
+            "tag": "fujitsu",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Funai",
+            "tag": "funai",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "FunTab",
+            "tag": "funtab",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "G'Five",
+            "tag": "gfive",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "G7",
+            "tag": "g7",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "GE",
+            "tag": "ge",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Gear4",
+            "tag": "gear4",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Genius",
+            "tag": "genius",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "George Foreman",
+            "tag": "george-foreman",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Gigaset",
+            "tag": "gigaset",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Gigastone",
+            "tag": "gigastone",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Gillette",
+            "tag": "gillette",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Gionee",
+            "tag": "gionee",
+            "count": 35,
+            "is_selected": false
+        }, {
+            "label": "Gladoo",
+            "tag": "gladoo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Glen",
+            "tag": "glen",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Go Tech",
+            "tag": "go-tech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Godrej",
+            "tag": "godrej",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Golla",
+            "tag": "golla",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "GoTab",
+            "tag": "gotab",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Griffin",
+            "tag": "griffin",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Haier",
+            "tag": "haier",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "Hamilton Beach",
+            "tag": "hamilton-beach",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Happy Funk",
+            "tag": "happy-funk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Havells",
+            "tag": "havells",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "HCL",
+            "tag": "hcl",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Hercules",
+            "tag": "hercules",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Hip Street",
+            "tag": "hip-street",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Hitachi",
+            "tag": "hitachi",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Hitech",
+            "tag": "hitech",
+            "count": 69,
+            "is_selected": false
+        }, {
+            "label": "Hotpary",
+            "tag": "hotpary",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "House of Marley",
+            "tag": "house-of-marley",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "HP",
+            "tag": "hp",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "HTC",
+            "tag": "htc",
+            "count": 63,
+            "is_selected": false
+        }, {
+            "label": "Huawei",
+            "tag": "huawei",
+            "count": 43,
+            "is_selected": false
+        }, {
+            "label": "HUL",
+            "tag": "hul",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Hylex",
+            "tag": "hylex",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "i smart",
+            "tag": "i-smart",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iAccy",
+            "tag": "iaccy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iBall",
+            "tag": "iball",
+            "count": 117,
+            "is_selected": false
+        }, {
+            "label": "iberry",
+            "tag": "iberry",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "iBuzz",
+            "tag": "ibuzz",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ice X",
+            "tag": "ice-x",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Ice Xtreme",
+            "tag": "ice-xtreme",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Icon",
+            "tag": "icon",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "iDance",
+            "tag": "idance",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Idea",
+            "tag": "idea",
+            "count": 16,
+            "is_selected": false
+        }, {
+            "label": "iEnhance",
+            "tag": "ienhance",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "IFB",
+            "tag": "ifb",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iGo",
+            "tag": "igo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iHave",
+            "tag": "ihave",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iHip",
+            "tag": "ihip",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iHome",
+            "tag": "ihome",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iLuv",
+            "tag": "iluv",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Imation",
+            "tag": "imation",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Inalsa",
+            "tag": "inalsa",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Incase",
+            "tag": "incase",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Inco",
+            "tag": "inco",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Index",
+            "tag": "index",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Indicook",
+            "tag": "indicook",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iNew",
+            "tag": "inew",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "INQ",
+            "tag": "inq",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Intex",
+            "tag": "intex",
+            "count": 240,
+            "is_selected": false
+        }, {
+            "label": "IOMEGA",
+            "tag": "iomega",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "ioSafe",
+            "tag": "iosafe",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Iris",
+            "tag": "iris",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iRock",
+            "tag": "irock",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iSmart",
+            "tag": "ismart",
+            "count": 6,
+            "is_selected": false
+        }, {
+            "label": "iStorage",
+            "tag": "istorage",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "ISUN",
+            "tag": "isun",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "iZOTRON",
+            "tag": "izotron",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Jabra",
+            "tag": "jabra",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Jaipan",
+            "tag": "jaipan",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "JAYS",
+            "tag": "jays",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "JBL",
+            "tag": "jbl",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Jivi",
+            "tag": "jivi",
+            "count": 10,
+            "is_selected": false
+        }, {
+            "label": "Josh",
+            "tag": "josh",
+            "count": 13,
+            "is_selected": false
+        }, {
+            "label": "JOY",
+            "tag": "joy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "JVC",
+            "tag": "jvc",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "K-Touch",
+            "tag": "k-touch",
+            "count": 7,
+            "is_selected": false
+        }, {
+            "label": "Kailash",
+            "tag": "kailash",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Karbonn",
+            "tag": "karbonn",
+            "count": 278,
+            "is_selected": false
+        }, {
+            "label": "Karcher",
+            "tag": "karcher",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kelvinator",
+            "tag": "kelvinator",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kensington",
+            "tag": "kensington",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kenstar",
+            "tag": "kenstar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kent",
+            "tag": "kent",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kenwood",
+            "tag": "kenwood",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kestrel",
+            "tag": "kestrel",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "Khaitan",
+            "tag": "khaitan",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kindle",
+            "tag": "kindle",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kingston",
+            "tag": "kingston",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Klipsch",
+            "tag": "klipsch",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "KNG",
+            "tag": "kng",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Kodak",
+            "tag": "kodak",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "KolorFish",
+            "tag": "kolorfish",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Konka",
+            "tag": "konka",
+            "count": 6,
+            "is_selected": false
+        }, {
+            "label": "Koss",
+            "tag": "koss",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "KRK",
+            "tag": "krk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lacie",
+            "tag": "lacie",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lapbook",
+            "tag": "lapbook",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lava",
+            "tag": "lava",
+            "count": 163,
+            "is_selected": false
+        }, {
+            "label": "Lemon",
+            "tag": "lemon",
+            "count": 69,
+            "is_selected": false
+        }, {
+            "label": "Lenco",
+            "tag": "lenco",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lenovo",
+            "tag": "lenovo",
+            "count": 47,
+            "is_selected": false
+        }, {
+            "label": "Leoxsys",
+            "tag": "leoxsys",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Less",
+            "tag": "less",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lexar",
+            "tag": "lexar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "LG",
+            "tag": "lg",
+            "count": 66,
+            "is_selected": false
+        }, {
+            "label": "Live Tech",
+            "tag": "live-tech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lloyd",
+            "tag": "lloyd",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Logitech",
+            "tag": "logitech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Luminous",
+            "tag": "luminous",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Lumix",
+            "tag": "lumix",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Luxor",
+            "tag": "luxor",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Maggi",
+            "tag": "maggi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Magicon",
+            "tag": "magicon",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "Maharaja",
+            "tag": "maharaja",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Manhattan",
+            "tag": "manhattan",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "MapmyIndia",
+            "tag": "mapmyindia",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Marc",
+            "tag": "marc",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Markson",
+            "tag": "markson",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Marvel",
+            "tag": "marvel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Maxell",
+            "tag": "maxell",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Maxx",
+            "tag": "maxx",
+            "count": 107,
+            "is_selected": false
+        }, {
+            "label": "MCC",
+            "tag": "mcc",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Mediaman",
+            "tag": "mediaman",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Meelectronics",
+            "tag": "meelectronics",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Mercury",
+            "tag": "mercury",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Mi",
+            "tag": "mi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Micromax",
+            "tag": "micromax",
+            "count": 289,
+            "is_selected": false
+        }, {
+            "label": "Microsoft",
+            "tag": "microsoft",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Microtek",
+            "tag": "microtek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Microware",
+            "tag": "microware",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Miikey",
+            "tag": "miikey",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Milagrow",
+            "tag": "milagrow",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "MiLi",
+            "tag": "mili",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Mimobot",
+            "tag": "mimobot",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ministry of Sound",
+            "tag": "ministry-of-sound",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Mitashi",
+            "tag": "mitashi",
+            "count": 7,
+            "is_selected": false
+        }, {
+            "label": "Molife",
+            "tag": "molife",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Morphy Richards",
+            "tag": "morphy-richards",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Moserbaer",
+            "tag": "moserbaer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Motorola",
+            "tag": "motorola",
+            "count": 36,
+            "is_selected": false
+        }, {
+            "label": "MSI",
+            "tag": "msi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "MTech",
+            "tag": "mtech",
+            "count": 32,
+            "is_selected": false
+        }, {
+            "label": "MTS",
+            "tag": "mts",
+            "count": 14,
+            "is_selected": false
+        }, {
+            "label": "Muffin",
+            "tag": "muffin",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Murphy",
+            "tag": "murphy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "MVL",
+            "tag": "mvl",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "MyZen",
+            "tag": "myzen",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Netgear",
+            "tag": "netgear",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nextech",
+            "tag": "nextech",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nikitasha",
+            "tag": "nikitasha",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nikon",
+            "tag": "nikon",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nitho",
+            "tag": "nitho",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nokia",
+            "tag": "nokia",
+            "count": 111,
+            "is_selected": false
+        }, {
+            "label": "Notion Ink",
+            "tag": "notion-ink",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nova",
+            "tag": "nova",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nuclear",
+            "tag": "nuclear",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Nugen",
+            "tag": "nugen",
+            "count": 8,
+            "is_selected": false
+        }, {
+            "label": "NXI",
+            "tag": "nxi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Nyne",
+            "tag": "nyne",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "O General",
+            "tag": "o-general",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "OBI",
+            "tag": "obi",
+            "count": 14,
+            "is_selected": false
+        }, {
+            "label": "Odyssey",
+            "tag": "odyssey",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Olive",
+            "tag": "olive",
+            "count": 7,
+            "is_selected": false
+        }, {
+            "label": "Olympus",
+            "tag": "olympus",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "OnePlus",
+            "tag": "oneplus",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Onida",
+            "tag": "onida",
+            "count": 51,
+            "is_selected": false
+        }, {
+            "label": "OPPO",
+            "tag": "oppo",
+            "count": 12,
+            "is_selected": false
+        }, {
+            "label": "OptimaSmart",
+            "tag": "optimasmart",
+            "count": 12,
+            "is_selected": false
+        }, {
+            "label": "orbit",
+            "tag": "orbit",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Oreva",
+            "tag": "oreva",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Orient",
+            "tag": "orient",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Orion",
+            "tag": "orion",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Orpat",
+            "tag": "orpat",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Orphils",
+            "tag": "orphils",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Oster",
+            "tag": "oster",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ovastar",
+            "tag": "ovastar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Owastar",
+            "tag": "owastar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Oxid",
+            "tag": "oxid",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Oxygen",
+            "tag": "oxygen",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ozone",
+            "tag": "ozone",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Padmini",
+            "tag": "padmini",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Pagaria",
+            "tag": "pagaria",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Panasonic",
+            "tag": "panasonic",
+            "count": 24,
+            "is_selected": false
+        }, {
+            "label": "Parrot",
+            "tag": "parrot",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Pentax",
+            "tag": "pentax",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Perkso",
+            "tag": "perkso",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Philips",
+            "tag": "philips",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "Phonemax",
+            "tag": "phonemax",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "picasso",
+            "tag": "picasso",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Pigeon",
+            "tag": "pigeon",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "pioneer",
+            "tag": "pioneer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Pisces",
+            "tag": "pisces",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Plantronics",
+            "tag": "plantronics",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Plustek",
+            "tag": "plustek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "PNY",
+            "tag": "pny",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Polaroid",
+            "tag": "polaroid",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Portronics",
+            "tag": "portronics",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Power 4",
+            "tag": "power-4",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Preethi",
+            "tag": "preethi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Prestige",
+            "tag": "prestige",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Prolink",
+            "tag": "prolink",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Quantum",
+            "tag": "quantum",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Quba",
+            "tag": "quba",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Raaisin",
+            "tag": "raaisin",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Rage",
+            "tag": "rage",
+            "count": 42,
+            "is_selected": false
+        }, {
+            "label": "Raiikar",
+            "tag": "raiikar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Rapoo",
+            "tag": "rapoo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Razer",
+            "tag": "razer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Re-Store",
+            "tag": "re-store",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Red Gear",
+            "tag": "red-gear",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Redd",
+            "tag": "redd",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Reliance",
+            "tag": "reliance",
+            "count": 2,
+            "is_selected": false
+        }, {
+            "label": "Remington",
+            "tag": "remington",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Rico",
+            "tag": "rico",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ricoh",
+            "tag": "ricoh",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Roccat",
+            "tag": "roccat",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Rollei",
+            "tag": "rollei",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Russell Hobbs",
+            "tag": "russell-hobbs",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Salora",
+            "tag": "salora",
+            "count": 18,
+            "is_selected": false
+        }, {
+            "label": "Samsung",
+            "tag": "samsung",
+            "count": 138,
+            "is_selected": false
+        }, {
+            "label": "SanDisk",
+            "tag": "sandisk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sansui",
+            "tag": "sansui",
+            "count": 31,
+            "is_selected": false
+        }, {
+            "label": "Sanyo",
+            "tag": "sanyo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Scomp",
+            "tag": "scomp",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Scosche",
+            "tag": "scosche",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Seagate",
+            "tag": "seagate",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sennheiser",
+            "tag": "sennheiser",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Severin",
+            "tag": "severin",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SHARP",
+            "tag": "sharp",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Shure",
+            "tag": "shure",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Siemens",
+            "tag": "siemens",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SiliconPower",
+            "tag": "siliconpower",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Simmtronics",
+            "tag": "simmtronics",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "Singer",
+            "tag": "singer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Skullcandy",
+            "tag": "skullcandy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Skyline",
+            "tag": "skyline",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Smart",
+            "tag": "smart",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Smiledrive",
+            "tag": "smiledrive",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Softel",
+            "tag": "softel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sogo",
+            "tag": "sogo",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Solio",
+            "tag": "solio",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sollatek",
+            "tag": "sollatek",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Solmate",
+            "tag": "solmate",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sonax",
+            "tag": "sonax",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sonic",
+            "tag": "sonic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SonicStar",
+            "tag": "sonicstar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sony",
+            "tag": "sony",
+            "count": 52,
+            "is_selected": false
+        }, {
+            "label": "Sony Ericsson",
+            "tag": "sony-ericsson",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sound Magic",
+            "tag": "sound-magic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SoundLogic",
+            "tag": "soundlogic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SoundMAGIC",
+            "tag": "soundmagic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sowbaghya",
+            "tag": "sowbaghya",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Soyer",
+            "tag": "soyer",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Spc Ergonmic",
+            "tag": "spc-ergonmic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SPCinternet",
+            "tag": "spcinternet",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "SPCtelecom",
+            "tag": "spctelecom",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Spice",
+            "tag": "spice",
+            "count": 168,
+            "is_selected": false
+        }, {
+            "label": "SSK",
+            "tag": "ssk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "StarPad",
+            "tag": "starpad",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Steelseries",
+            "tag": "steelseries",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "STK",
+            "tag": "stk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Strontium",
+            "tag": "strontium",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Su-Kam",
+            "tag": "su-kam",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Sunflame",
+            "tag": "sunflame",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Supertooth",
+            "tag": "supertooth",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Surya Flame",
+            "tag": "surya-flame",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Swingtel",
+            "tag": "swingtel",
+            "count": 6,
+            "is_selected": false
+        }, {
+            "label": "Swipe",
+            "tag": "swipe",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "Swiss",
+            "tag": "swiss",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Swiss Voice",
+            "tag": "swiss-voice",
+            "count": 4,
+            "is_selected": false
+        }, {
+            "label": "T-Series",
+            "tag": "t-series",
+            "count": 9,
+            "is_selected": false
+        }, {
+            "label": "Targus",
+            "tag": "targus",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Tata",
+            "tag": "tata",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TCL",
+            "tag": "tcl",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TDK",
+            "tag": "tdk",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Tefal",
+            "tag": "tefal",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Tekfusion",
+            "tag": "tekfusion",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Tempest",
+            "tag": "tempest",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Toni&Guy",
+            "tag": "toniguy",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Torlen",
+            "tag": "torlen",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Toshiba",
+            "tag": "toshiba",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Transcend",
+            "tag": "transcend",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TRESemme",
+            "tag": "tresemme",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TrueBlue Voice",
+            "tag": "trueblue-voice",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Tt eSPORTS",
+            "tag": "tt-esports",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TubeZ",
+            "tag": "tubez",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "TVS-e",
+            "tag": "tvs-e",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Uberbat",
+            "tag": "uberbat",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Uberrize",
+            "tag": "uberrize",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Ultimate Ears",
+            "tag": "ultimate-ears",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "UMAX",
+            "tag": "umax",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "UMEKO",
+            "tag": "umeko",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Uniden",
+            "tag": "uniden",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Urbanears",
+            "tag": "urbanears",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Usha",
+            "tag": "usha",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Utility",
+            "tag": "utility",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "V-Guard",
+            "tag": "v-guard",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "V3",
+            "tag": "v3",
+            "count": 2,
+            "is_selected": false
+        }, {
+            "label": "Vega",
+            "tag": "vega",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Verbatim",
+            "tag": "verbatim",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "verico",
+            "tag": "verico",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vestar",
+            "tag": "vestar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vibro",
+            "tag": "vibro",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vidal",
+            "tag": "vidal",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Videocon",
+            "tag": "videocon",
+            "count": 123,
+            "is_selected": false
+        }, {
+            "label": "ViewSonic",
+            "tag": "viewsonic",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Virtue",
+            "tag": "virtue",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Viva",
+            "tag": "viva",
+            "count": 16,
+            "is_selected": false
+        }, {
+            "label": "Vivitar",
+            "tag": "vivitar",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vivo",
+            "tag": "vivo",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Vizio",
+            "tag": "vizio",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vodafone",
+            "tag": "vodafone",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Vogel's",
+            "tag": "vogels",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Voltas",
+            "tag": "voltas",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Vox",
+            "tag": "vox",
+            "count": 29,
+            "is_selected": false
+        }, {
+            "label": "Voxtel",
+            "tag": "voxtel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "VU",
+            "tag": "vu",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wahl",
+            "tag": "wahl",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Warmex",
+            "tag": "warmex",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "WD",
+            "tag": "wd",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wespro",
+            "tag": "wespro",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "Westinghouse",
+            "tag": "westinghouse",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wham",
+            "tag": "wham",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "Whirlpool",
+            "tag": "whirlpool",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wipro",
+            "tag": "wipro",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "WishTel",
+            "tag": "wishtel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wolfson",
+            "tag": "wolfson",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wonderchef",
+            "tag": "wonderchef",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Wynncom",
+            "tag": "wynncom",
+            "count": 38,
+            "is_selected": false
+        }, {
+            "label": "X-Doria",
+            "tag": "x-doria",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "X-Electron",
+            "tag": "x-electron",
+            "count": 8,
+            "is_selected": false
+        }, {
+            "label": "X-mini",
+            "tag": "x-mini",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Xage",
+            "tag": "xage",
+            "count": 1,
+            "is_selected": false
+        }, {
+            "label": "Xerox",
+            "tag": "xerox",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Xiaomi",
+            "tag": "xiaomi",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "xiolife",
+            "tag": "xiolife",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "XOLO",
+            "tag": "xolo",
+            "count": 60,
+            "is_selected": false
+        }, {
+            "label": "XONPAD 7",
+            "tag": "xonpad-7",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Xpad",
+            "tag": "xpad",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Xpro",
+            "tag": "xpro",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Yamaha",
+            "tag": "yamaha",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Yell",
+            "tag": "yell",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Yes",
+            "tag": "yes",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Yoobao",
+            "tag": "yoobao",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "York",
+            "tag": "york",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Z'BEL",
+            "tag": "zbel",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zears",
+            "tag": "zears",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "Zebronics",
+            "tag": "zebronics",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zen",
+            "tag": "zen",
+            "count": 72,
+            "is_selected": false
+        }, {
+            "label": "Zero B",
+            "tag": "zero-b",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zing",
+            "tag": "zing",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zinglife",
+            "tag": "zinglife",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zojirushi",
+            "tag": "zojirushi",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zook",
+            "tag": "zook",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Zoook",
+            "tag": "zoook",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "ZTE",
+            "tag": "zte",
+            "count": 16,
+            "is_selected": false
+        }, {
+            "label": "Zync",
+            "tag": "zync",
+            "count": 12,
+            "is_selected": false
+        }, {
+            "label": "Zyphr",
+            "tag": "zyphr",
+            "count": 0,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "biq_score_range",
+        "name": "BuyingIQ Score",
+        "facets": [{
+            "label": "We love it!",
+            "tag": "90-100",
+            "count": 54,
+            "is_selected": false
+        }, {
+            "label": "We like it!",
+            "tag": "80-89",
+            "count": 62,
+            "is_selected": false
+        }, {
+            "label": "You can do better.",
+            "tag": "50-79",
+            "count": 74,
+            "is_selected": false
+        }, {
+            "label": "Don't buy.",
+            "tag": "1-49",
+            "count": 12,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "operating_system",
+        "name": "Operating System",
+        "facets": [{
+            "label": "Windows",
+            "tag": "windows-os",
+            "count": 46,
+            "is_selected": false
+        }, {
+            "label": "Android v4.4 (KitKat)",
+            "tag": "android-4.4",
+            "count": 378,
+            "is_selected": false
+        }, {
+            "label": "Android v4.2 (Jelly Bean)",
+            "tag": "android-4.2",
+            "count": 483,
+            "is_selected": false
+        }, {
+            "label": "Android v4.1 (Jelly Bean)",
+            "tag": "android-4.1",
+            "count": 163,
+            "is_selected": false
+        }, {
+            "label": "Android v4.0 (ICS)",
+            "tag": "android-4.0",
+            "count": 224,
+            "is_selected": false
+        }, {
+            "label": "Android v3.2 (Honey Comb)",
+            "tag": "android-3.2",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Android v3.1 (Honey Comb)",
+            "tag": "android-3.1",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Android v2.3",
+            "tag": "android-2.3",
+            "count": 251,
+            "is_selected": false
+        }, {
+            "label": "Android v2.2 (Froyo)",
+            "tag": "android-2.2",
+            "count": 20,
+            "is_selected": false
+        }, {
+            "label": "Blackberry OS",
+            "tag": "blackberry-os",
+            "count": 39,
+            "is_selected": false
+        }, {
+            "label": "Symbian",
+            "tag": "symbian-os",
+            "count": 60,
+            "is_selected": false
+        }, {
+            "label": "Android One",
+            "tag": "android-one",
+            "count": 3,
+            "is_selected": false
+        }, {
+            "label": "Firefox",
+            "tag": "firefox",
+            "count": 3,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "price_range",
+        "name": "Price Range",
+        "facets": [{
+            "label": "Under Rs. 3000",
+            "tag": "below-3k",
+            "count": 1724,
+            "is_selected": false
+        }, {
+            "label": "Rs. 3000 - Rs. 5000",
+            "tag": "3k-5k",
+            "count": 582,
+            "is_selected": false
+        }, {
+            "label": "Rs. 5000 - Rs. 7000",
+            "tag": "5k-7k",
+            "count": 379,
+            "is_selected": false
+        }, {
+            "label": "Rs. 7000 - Rs. 10000",
+            "tag": "7k-10k",
+            "count": 344,
+            "is_selected": false
+        }, {
+            "label": "Rs. 10000 - Rs. 15000",
+            "tag": "10k-15k",
+            "count": 169,
+            "is_selected": false
+        }, {
+            "label": "Rs. 15000 - Rs. 20000",
+            "tag": "15k-20k",
+            "count": 98,
+            "is_selected": false
+        }, {
+            "label": "Rs. 20000 - Rs. 25000",
+            "tag": "20k-25k",
+            "count": 51,
+            "is_selected": false
+        }, {
+            "label": "Above Rs. 25000",
+            "tag": "above-25k",
+            "count": 85,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "handset_type",
+        "name": "Handset Type",
+        "facets": [{
+            "label": "Android Phones",
+            "tag": "android",
+            "count": 1592,
+            "is_selected": false
+        }, {
+            "label": "Smartphones",
+            "tag": "smartphones",
+            "count": 1944,
+            "is_selected": false
+        }, {
+            "label": "Dual Sim",
+            "tag": "dual-sim",
+            "count": 2918,
+            "is_selected": false
+        }, {
+            "label": "Slider Phones",
+            "tag": "slider",
+            "count": 37,
+            "is_selected": false
+        }, {
+            "label": "Clamshell Phones",
+            "tag": "clamshell",
+            "count": 5,
+            "is_selected": false
+        }, {
+            "label": "Bar Phones",
+            "tag": "bar",
+            "count": 3363,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "inbuilt_features",
+        "name": "Inbuilt Features",
+        "facets": [{
+            "label": "Wifi",
+            "tag": "wifi",
+            "count": 1781,
+            "is_selected": false
+        }, {
+            "label": "Bluetooth",
+            "tag": "bluetooth",
+            "count": 3275,
+            "is_selected": false
+        }, {
+            "label": "Radio FM",
+            "tag": "radio-fm",
+            "count": 3150,
+            "is_selected": false
+        }, {
+            "label": "Email",
+            "tag": "email",
+            "count": 2087,
+            "is_selected": false
+        }, {
+            "label": "3G",
+            "tag": "3g",
+            "count": 1412,
+            "is_selected": false
+        }, {
+            "label": "Music Player",
+            "tag": "music-player",
+            "count": 3388,
+            "is_selected": false
+        }, {
+            "label": "Camera",
+            "tag": "camera",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "GPRS",
+            "tag": "gprs",
+            "count": 3037,
+            "is_selected": false
+        }, {
+            "label": "Video Recording",
+            "tag": "video-recording",
+            "count": 3336,
+            "is_selected": false
+        }, {
+            "label": "Secondary Camera",
+            "tag": "secondary-camera",
+            "count": 0,
+            "is_selected": false
+        }, {
+            "label": "Flash (Camera)",
+            "tag": "flash",
+            "count": 1466,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "camera_pixels",
+        "name": "Camera Pixels",
+        "facets": [{
+            "label": "Below 2 MP Camera",
+            "tag": "below-2mp",
+            "count": 1825,
+            "is_selected": false
+        }, {
+            "label": "2 MP -  5 MP Camera",
+            "tag": "2mp-5mp",
+            "count": 1292,
+            "is_selected": false
+        }, {
+            "label": "5 MP - 8 MP Camera",
+            "tag": "5mp-8mp",
+            "count": 979,
+            "is_selected": false
+        }, {
+            "label": "Above 8 MP Camera",
+            "tag": "above-8mp",
+            "count": 629,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "keyboard_type",
+        "name": "Keyboard Type",
+        "facets": [{
+            "label": "QWERTY Keypad",
+            "tag": "qwerty-keypad",
+            "count": 139,
+            "is_selected": false
+        }, {
+            "label": "Normal Keypad",
+            "tag": "normal-keypad",
+            "count": 1355,
+            "is_selected": false
+        }, {
+            "label": "Touchscreen",
+            "tag": "touchscreen",
+            "count": 1977,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "screen_size",
+        "name": "Screen Size",
+        "facets": [{
+            "label": "Less than 3 inch",
+            "tag": "below-3in",
+            "count": 1602,
+            "is_selected": false
+        }, {
+            "label": "3 inch - 4 inch",
+            "tag": "3in-4in",
+            "count": 948,
+            "is_selected": false
+        }, {
+            "label": "4 inch - 5 inch",
+            "tag": "4in-5in",
+            "count": 1123,
+            "is_selected": false
+        }, {
+            "label": "Above 5 inch",
+            "tag": "above-5in",
+            "count": 531,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "processor_speed",
+        "name": "Processor Speed",
+        "facets": [{
+            "label": "Below 650 MHz",
+            "tag": "below-650mhz",
+            "count": 230,
+            "is_selected": false
+        }, {
+            "label": "650 MHz - 1 GHz",
+            "tag": "650mhz-1ghz",
+            "count": 680,
+            "is_selected": false
+        }, {
+            "label": "1 GHz - 1.5 GHz",
+            "tag": "1ghz-1.5ghz",
+            "count": 1460,
+            "is_selected": false
+        }, {
+            "label": "Above 1.5 GHz",
+            "tag": "Above-1.5ghz",
+            "count": 182,
+            "is_selected": false
+        }]
+    }, {
+        "uri": "memory_ram",
+        "name": "Memory RAM",
+        "facets": [{
+            "label": "Below 512 MB RAM",
+            "tag": "below-512mb",
+            "count": 1238,
+            "is_selected": false
+        }, {
+            "label": "512 MB - 1GB RAM",
+            "tag": "512mb-1gb",
+            "count": 1120,
+            "is_selected": false
+        }, {
+            "label": "1GB - 2GB RAM",
+            "tag": "1gb-2gb",
+            "count": 604,
+            "is_selected": false
+        }, {
+            "label": "Above 2GB RAM",
+            "tag": "above-2gb",
+            "count": 139,
+            "is_selected": false
+        }]
+    }],
+    "products": [{
+        "id": "43596",
+        "name": "Motorola Moto E",
+        "brand": "Motorola",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.71",
+        "rating_count": 512,
+        "review_count": 232,
+        "stock_info": "In Stock",
+        "deal_count": 6,
+        "store_count": 6,
+        "min_price": "6990.00",
+        "min_price_str": "6,990",
+        "key_features": [
+            ["OS", "Android v4.4.2 (KitKat), Upgradable to v4.4.4 (KitKat)", "Android v4.4.2 (KitKat), Upgradable to v4.4.4 (KitKat) Operating System"],
+            ["Screen", "4.3 inches Screen", "4.3 inches Screen"],
+            ["Memory", "1 GB RAM, 4 GB ROM", "1 GB RAM, 4 GB ROM"],
+            ["CPU", "1.2 GHz, Dual Core Cortex-A7", "1.2 GHz, Dual Core Cortex-A7 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Resolution", "960 x 540 Pixels", "960 x 540 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB", "4 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 24 hrs (3G)", "Upto 24 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/motorola-moto-e-43596/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/49/b9/49b948ebeb192f77a9185fd95e6cf88e.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/4c/4f/4c4faf946caa553e96a8f794562141c9.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/78/fa/78fadceba3c15b147cef837548e5dbaa.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/40/68/4068b1119ce815f66dfbc414342c15fc.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105283-ci0-ui70750-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105283-ci0-ui70750-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105283-ci0-ui70750-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105283-ci0-ui70750-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105283-ci0-ui70750-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105284-ci0-ui70751-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105284-ci0-ui70751-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105284-ci0-ui70751-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105284-ci0-ui70751-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105284-ci0-ui70751-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105285-ci0-ui70752-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105285-ci0-ui70752-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105285-ci0-ui70752-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105285-ci0-ui70752-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105285-ci0-ui70752-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105286-ci0-ui70753-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105286-ci0-ui70753-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105286-ci0-ui70753-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105286-ci0-ui70753-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105286-ci0-ui70753-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105287-ci0-ui70754-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105287-ci0-ui70754-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105287-ci0-ui70754-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105287-ci0-ui70754-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105287-ci0-ui70754-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105288-ci0-ui70755-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105288-ci0-ui70755-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105288-ci0-ui70755-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105288-ci0-ui70755-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43596-pi105288-ci0-ui70755-s125x125.jpg"
+        }],
+        "biq_score": 95,
+        "curated_review_count": 1628
+    }, {
+        "id": "42912",
+        "name": "Nokia Lumia 520",
+        "brand": "Nokia",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.01",
+        "rating_count": 337,
+        "review_count": 124,
+        "stock_info": "In Stock",
+        "deal_count": 8,
+        "store_count": 8,
+        "min_price": "5000.00",
+        "min_price_str": "5,000",
+        "key_features": [
+            ["OS", "Windows 8", "Windows 8 Operating System"],
+            ["Screen", "4 inches Screen", "4 inches Screen"],
+            ["Memory", "512 MB RAM, 8 GB ROM", "512 MB RAM, 8 GB ROM"],
+            ["CPU", "1 GHz, Dual Core Qualcomm Krait", "1 GHz, Dual Core Qualcomm Krait Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Talk time", "Upto 14 hrs 40 min (2G) / Upto 9 hrs 40 min (3G)", "Upto 14 hrs 40 min (2G) / Upto 9 hrs 40 min (3G) Talk time"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB", "8 GB Internal Storage"],
+            ["3G", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, Hotspot", "Wi-Fi 802.11 a/b/g/n, Hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 360 hrs (3G)", "Upto 360 hrs (3G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/nokia-lumia-520-42912/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/eb/a1/eba111ed88518292627f242ec397553c.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/0d/9c/0d9c5e1965f04035851e85cc5b8b4fd5.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/ec/ff/ecffc9211198fabb6dd052d5e3995aa5.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/8b/4e/8b4ee55371d868cbb800cd7796ddfab6.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102705-ci0-ui68172-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102705-ci0-ui68172-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102705-ci0-ui68172-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102705-ci0-ui68172-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102705-ci0-ui68172-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102706-ci0-ui68173-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102706-ci0-ui68173-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102706-ci0-ui68173-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102706-ci0-ui68173-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102706-ci0-ui68173-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102707-ci0-ui68174-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102707-ci0-ui68174-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102707-ci0-ui68174-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102707-ci0-ui68174-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p42912-pi102707-ci0-ui68174-s125x125.jpg"
+        }],
+        "biq_score": 96,
+        "curated_review_count": 1794
+    }, {
+        "id": "52767",
+        "name": "Sony Xperia C",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.75",
+        "rating_count": 506,
+        "review_count": 74,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "9994.00",
+        "min_price_str": "9,994",
+        "key_features": [
+            ["OS", "Android v4.2.2 (Jelly Bean)", "Android v4.2.2 (Jelly Bean) Operating System"],
+            ["Screen", "5 inches Screen", "5 inches Screen"],
+            ["Memory", "1 GB RAM, 4 GB ROM", "1 GB RAM, 4 GB ROM"],
+            ["CPU", "1.2 GHz, Quad Core Cortex-A7", "1.2 GHz, Quad Core Cortex-A7 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 14 hrs (2G) / Upto 12 hrs 25 min (3G)", "Upto 14 hrs (2G) / Upto 12 hrs 25 min (3G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Secondary Camera", "VGA", "VGA Secondary Camera"],
+            ["Resolution", "960 x 540 Pixels", "960 x 540 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB", "4 GB Internal Storage"],
+            ["3G", "42.2 Mbps HSDPA, 11.5 Mbps HSUPA", "42.2 Mbps HSDPA, 11.5 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Up to 588 hrs (2G), Up to 605 hrs (3G)", "Up to 588 hrs (2G), Up to 605 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-c-52767/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/9a/d3/9ad36c757bf1cd734b5538af5fb57538.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/e2/90/e2902d48078f5d50b0718359e20948e3.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/64/8f/648fbe282221227aeef6d543c375fcd1.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/9b/a7/9ba7180a7aa33c633d597dce2ac98e18.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108828-ci0-ui74295-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108828-ci0-ui74295-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108828-ci0-ui74295-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108828-ci0-ui74295-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108828-ci0-ui74295-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108829-ci0-ui74296-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108829-ci0-ui74296-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108829-ci0-ui74296-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108829-ci0-ui74296-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108829-ci0-ui74296-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108830-ci0-ui74297-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108830-ci0-ui74297-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108830-ci0-ui74297-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108830-ci0-ui74297-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p52767-pi108830-ci0-ui74297-s125x125.jpg"
+        }],
+        "biq_score": 77,
+        "curated_review_count": 614
+    }, {
+        "id": "84454",
+        "name": "Sony Xperia Z",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.71",
+        "rating_count": 421,
+        "review_count": 63,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "22000.00",
+        "min_price_str": "22,000",
+        "key_features": [
+            ["OS", "Android, v4.1.2 (Jelly Bean), upgradable to v4.4.4 (KitKat), planned upgrade to v5.0 (Lollipop)", "Android, v4.1.2 (Jelly Bean), upgradable to v4.4.4 (KitKat), planned upgrade to v5.0 (Lollipop) Operating System"],
+            ["Screen", "5 inches Screen", "5 inches Screen"],
+            ["Memory", "2 GB RAM, 16 GB ROM", "2 GB RAM, 16 GB ROM"],
+            ["CPU", "1.5 GHz, Quad Core Krait", "1.5 GHz, Quad Core Krait Processor"],
+            ["Expandable", "Micro SD, Up to 32 GB", "Micro SD, Up to 32 GB Expandable Storage"],
+            ["Camera", "13.1 Megapixels", "13.1 MP Primary Camera"],
+            ["Talk time", "Upto 11 hrs (2G) / Upto 14 hrs (3G)", "Upto 11 hrs (2G) / Upto 14 hrs (3G) Talk time"],
+            ["Secondary Camera", "2.2 Megapixels", "2.2 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "42 Mbps HSDPA, 5.8 Mbps HSUPA", "42 Mbps HSDPA, 5.8 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 550 hrs (2G), Upto 530 hrs (3G)", "Upto 550 hrs (2G), Upto 530 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-z-84454/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/20/e6/20e67d6d2f3f7145f601ff4b7abfe84c.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/ca/7c/ca7c32d31a22a40bc31ccf13e52c44e5.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/c0/e0/c0e062c2801777aa3cd8edcfd84f90ae.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/b7/7e/b77e5cad42d0c48119b6e1435da7b733.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102672-ci0-ui68139-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102672-ci0-ui68139-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102672-ci0-ui68139-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102672-ci0-ui68139-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102672-ci0-ui68139-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102673-ci0-ui68140-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102673-ci0-ui68140-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102673-ci0-ui68140-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102673-ci0-ui68140-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102673-ci0-ui68140-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102674-ci0-ui68141-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102674-ci0-ui68141-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102674-ci0-ui68141-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102674-ci0-ui68141-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102674-ci0-ui68141-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102675-ci0-ui68142-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102675-ci0-ui68142-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102675-ci0-ui68142-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102675-ci0-ui68142-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p84454-pi102675-ci0-ui68142-s125x125.jpg"
+        }],
+        "biq_score": 54,
+        "curated_review_count": 161
+    }, {
+        "id": "55832",
+        "name": "Nokia Lumia 525",
+        "brand": "Nokia",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.53",
+        "rating_count": 174,
+        "review_count": 50,
+        "stock_info": "In Stock",
+        "deal_count": 12,
+        "store_count": 12,
+        "min_price": "6499.00",
+        "min_price_str": "6,499",
+        "key_features": [
+            ["OS", "Windows  8", "Windows  8 Operating System"],
+            ["Screen", "4 inches Screen", "4 inches Screen"],
+            ["Memory", "1 GB RAM, 8 GB ROM", "1 GB RAM, 8 GB ROM"],
+            ["CPU", "1 GHz, Dual Core Qualcomm Snapdragon S4,", "1 GHz, Dual Core Qualcomm Snapdragon S4, Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Talk time", "Upto 16 hrs (2G), Upto 10 hrs (3G)", "Upto 16 hrs (2G), Upto 10 hrs (3G) Talk time"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB", "8 GB Internal Storage"],
+            ["3G", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 336 hrs (2G), Upto 336 hrs (3G)", "Upto 336 hrs (2G), Upto 336 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/nokia-lumia-525-55832/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/e2/99/e29959bb260b2b47dce33bf0d361fb87.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/68/fe/68fefbc8dc65c885c8c35f076e5800f5.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/93/3e/933e9c53825902b9c1d368ea58a2b340.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/e4/8b/e48bddd1b4d540e16b7e37ab8b993b5b.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p55832-pi103580-ci0-ui69047-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p55832-pi103580-ci0-ui69047-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p55832-pi103580-ci0-ui69047-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p55832-pi103580-ci0-ui69047-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p55832-pi103580-ci0-ui69047-s125x125.jpg"
+        }],
+        "biq_score": 94,
+        "curated_review_count": 855
+    }, {
+        "id": "91377",
+        "name": "Micromax Unite 2 A106",
+        "brand": "Micromax",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.53",
+        "rating_count": 376,
+        "review_count": 51,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "5149.00",
+        "min_price_str": "5,149",
+        "key_features": [
+            ["OS", "Android v4.4.2 (Kit Kat)", "Android v4.4.2 (Kit Kat) Operating System"],
+            ["Screen", "4.7 inches Screen", "4.7 inches Screen"],
+            ["Memory", "1 GB RAM, 8 GB ROM", "1 GB RAM, 8 GB ROM"],
+            ["CPU", "1.3 GHz, Quad Core Cortex-A7", "1.3 GHz, Quad Core Cortex-A7 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Talk time", "Upto 8 hrs (2G)", "Upto 8 hrs (2G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Secondary Camera", "2.0 Megapixels", "2.0 MP Secondary Camera"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB", "8 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 190 hrs (2G)", "Upto 190 hrs (2G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/micromax-unite-2-a106-91377/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/79/e7/79e7b0874384dfdce860fa76e1298c72.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/82/e4/82e47496500e34dbb0d116b1cfe0ef62.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/89/82/898257ae34c7f4f3cdb868a9f2afd312.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/dd/ae/ddaef6bba9a8960f9100cd935129b3e7.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105409-ci0-ui70876-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105409-ci0-ui70876-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105409-ci0-ui70876-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105409-ci0-ui70876-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105409-ci0-ui70876-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105410-ci0-ui70877-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105410-ci0-ui70877-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105410-ci0-ui70877-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105410-ci0-ui70877-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105410-ci0-ui70877-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105411-ci0-ui70878-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105411-ci0-ui70878-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105411-ci0-ui70878-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105411-ci0-ui70878-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105411-ci0-ui70878-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105412-ci0-ui70879-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105412-ci0-ui70879-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105412-ci0-ui70879-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105412-ci0-ui70879-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p91377-pi105412-ci0-ui70879-s125x125.jpg"
+        }],
+        "biq_score": 100,
+        "curated_review_count": 3416
+    }, {
+        "id": "46065",
+        "name": "Sony Xperia L",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.09",
+        "rating_count": 386,
+        "review_count": 55,
+        "stock_info": "In Stock",
+        "deal_count": 9,
+        "store_count": 9,
+        "min_price": "8790.00",
+        "min_price_str": "8,790",
+        "key_features": [
+            ["OS", "Android v4.1 (Jelly Bean)", "Android v4.1 (Jelly Bean) Operating System"],
+            ["Screen", "4.3 inches Screen", "4.3 inches Screen"],
+            ["Memory", "1 GB RAM, 8 GB ROM", "1 GB RAM, 8 GB ROM"],
+            ["CPU", "1 GHz, Dual Core", "1 GHz, Dual Core Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 8 hrs 30 min (2G) / Upto 9 hrs (3G)", "Upto 8 hrs 30 min (2G) / Upto 9 hrs (3G) Talk time"],
+            ["Secondary Camera", "VGA", "VGA Secondary Camera"],
+            ["Resolution", "854 x 480 Pixels", "854 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB (5.8 GB user available)", "8 GB (5.8 GB user available) Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot", "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 498 hrs (2G), Upto 454 hrs (3G)", "Upto 498 hrs (2G), Upto 454 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-l-46065/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/af/3c/af3cb20e34e3a1be0f804d7fccfe27fa.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/8a/26/8a2659937c4a7a32ef00d5234172cff9.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/7a/5e/7a5ef665f21810e073332f6bca1d60fd.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/6a/e7/6ae758e0bd138a0a12050828c49b7bf3.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102751-ci0-ui68218-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102751-ci0-ui68218-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102751-ci0-ui68218-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102751-ci0-ui68218-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102751-ci0-ui68218-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102752-ci0-ui68219-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102752-ci0-ui68219-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102752-ci0-ui68219-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102752-ci0-ui68219-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102752-ci0-ui68219-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102753-ci0-ui68220-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102753-ci0-ui68220-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102753-ci0-ui68220-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102753-ci0-ui68220-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p46065-pi102753-ci0-ui68220-s125x125.jpg"
+        }],
+        "biq_score": 60,
+        "curated_review_count": 207
+    }, {
+        "id": "28762",
+        "name": "Apple iPhone 5s 16GB",
+        "brand": "Apple",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.33",
+        "rating_count": 138,
+        "review_count": 39,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "35749.00",
+        "min_price_str": "35,749",
+        "key_features": [
+            ["OS", "iOS 7, upgradable to iOS 7.1.2, upgradable to iOS 8.1.2", "iOS 7, upgradable to iOS 7.1.2, upgradable to iOS 8.1.2 Operating System"],
+            ["Screen", "4 inches Screen", "4 inches Screen"],
+            ["Memory", "1 GB RAM, 16 GB ROM", "1 GB RAM, 16 GB ROM"],
+            ["CPU", "1.3 GHz, Dual Core Cyclone", "1.3 GHz, Dual Core Cyclone Processor"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 10 hrs (2G) / Upto 10 hrs (3G)", "Upto 10 hrs (2G) / Upto 10 hrs (3G) Talk time"],
+            ["Secondary Camera", "1.2 Megapixels", "1.2 MP Secondary Camera"],
+            ["Resolution", "1136 x 640 Pixels", "1136 x 640 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 250 hrs (2G) / Upto 250 hrs (3G)", "Upto 250 hrs (2G) / Upto 250 hrs (3G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/apple-iphone-5s-16gb-28762/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/46/c7/46c7e944f4a780a142001096509fac77.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/83/27/83273ab1f4804d4b5a42187db8d0eab4.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/12/c9/12c9eaf7958a572b8a26e036c3709ca8.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/b6/dd/b6ddd887f3b37dda6c152f7e2ba44fdf.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102609-ci0-ui68076-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102609-ci0-ui68076-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102609-ci0-ui68076-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102609-ci0-ui68076-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102609-ci0-ui68076-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102610-ci0-ui68077-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102610-ci0-ui68077-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102610-ci0-ui68077-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102610-ci0-ui68077-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102610-ci0-ui68077-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102611-ci0-ui68078-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102611-ci0-ui68078-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102611-ci0-ui68078-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102611-ci0-ui68078-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102611-ci0-ui68078-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102612-ci0-ui68079-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102612-ci0-ui68079-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102612-ci0-ui68079-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102612-ci0-ui68079-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102612-ci0-ui68079-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102613-ci0-ui68080-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102613-ci0-ui68080-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102613-ci0-ui68080-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102613-ci0-ui68080-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p28762-pi102613-ci0-ui68080-s125x125.jpg"
+        }],
+        "biq_score": 100,
+        "curated_review_count": 3463
+    }, {
+        "id": "17641",
+        "name": "Samsung Galaxy S4 I9500",
+        "brand": "Samsung",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.86",
+        "rating_count": 220,
+        "review_count": 38,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "15999.00",
+        "min_price_str": "15,999",
+        "key_features": [
+            ["OS", "Android v4.2.2 (Jelly Bean), v4.3, Upgradable to v4.4.2 (KitKat), planned upgrade to v5.0 (Lollipop)", "Android v4.2.2 (Jelly Bean), v4.3, Upgradable to v4.4.2 (KitKat), planned upgrade to v5.0 (Lollipop) Operating System"],
+            ["Screen", "5 inches Screen", "5 inches Screen"],
+            ["Memory", "2 GB RAM, 16 GB ROM", "2 GB RAM, 16 GB ROM"],
+            ["CPU", "1.6 GHz, Quad Core Cortex-A15 & 1.2 GHz Quad Core Cortex-A7", "1.6 GHz, Quad Core Cortex-A15 & 1.2 GHz Quad Core Cortex-A7 Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "13.0 Megapixels", "13.0 MP Primary Camera"],
+            ["Talk time", "Upto 17 hrs (3G)", "Upto 17 hrs (3G) Talk time"],
+            ["Secondary Camera", "2.1 Megapixels", "2.1 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "42.2 Mbps HSDPA, 5.76 Mbps HSUPA", "42.2 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 370 hrs (3G)", "Upto 370 hrs (3G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/samsung-galaxy-s4-i9500-17641/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/b5/6a/b56acaf5befbca00be57a5a0c997dd33.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/1c/42/1c42db57f42f1c77f0720ab8f4196c38.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/9f/b4/9fb437fe7018cbfac241bc4cc550fd9e.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/86/29/86298ca6e328f123167347af2a3ed107.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108760-ci0-ui74227-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108760-ci0-ui74227-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108760-ci0-ui74227-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108760-ci0-ui74227-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108760-ci0-ui74227-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108761-ci0-ui74228-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108761-ci0-ui74228-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108761-ci0-ui74228-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108761-ci0-ui74228-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108761-ci0-ui74228-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108762-ci0-ui74229-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108762-ci0-ui74229-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108762-ci0-ui74229-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108762-ci0-ui74229-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108762-ci0-ui74229-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108763-ci0-ui74230-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108763-ci0-ui74230-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108763-ci0-ui74230-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108763-ci0-ui74230-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108763-ci0-ui74230-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108764-ci0-ui74231-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108764-ci0-ui74231-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108764-ci0-ui74231-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108764-ci0-ui74231-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108764-ci0-ui74231-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108765-ci0-ui74232-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108765-ci0-ui74232-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108765-ci0-ui74232-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108765-ci0-ui74232-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p17641-pi108765-ci0-ui74232-s125x125.jpg"
+        }],
+        "biq_score": 84,
+        "curated_review_count": 359
+    }, {
+        "id": "72748",
+        "name": "Samsung Galaxy Grand 2, SM-G7102",
+        "brand": "Samsung",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "6.75",
+        "rating_count": 174,
+        "review_count": 33,
+        "stock_info": "In Stock",
+        "deal_count": 11,
+        "store_count": 11,
+        "min_price": "13095.00",
+        "min_price_str": "13,095",
+        "key_features": [
+            ["OS", "Android, v4.3 (Jelly Bean), upgradable to v4.4.2 (KitKat)", "Android, v4.3 (Jelly Bean), upgradable to v4.4.2 (KitKat) Operating System"],
+            ["Screen", "5.25 inches Screen", "5.25 inches Screen"],
+            ["Memory", "1.5 GB RAM, 8 GB ROM", "1.5 GB RAM, 8 GB ROM"],
+            ["CPU", "1.2 GHz, Quad Core Cortex-A7", "1.2 GHz, Quad Core Cortex-A7 Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 17 hrs (3G)", "Upto 17 hrs (3G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Secondary Camera", "1.9 Megapixels", "1.9 MP Secondary Camera"],
+            ["Resolution", "1280 x 720 Pixels", "1280 x 720 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB", "8 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 370 hrs (3G)", "Upto 370 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/samsung-galaxy-grand-2-sm-g7102-72748/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/d3/a8/d3a8a7f0f47ce24de7de0269dadcedbf.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/ed/6f/ed6fc0ca4ddb291e1e73824bf9906ce7.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/84/c5/84c5bf0c5195416748df1697abef8d3e.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/70/02/7002eb5218e8b5a654cb0820003bc79a.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109283-ci0-ui74750-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109283-ci0-ui74750-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109283-ci0-ui74750-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109283-ci0-ui74750-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109283-ci0-ui74750-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109284-ci0-ui74751-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109284-ci0-ui74751-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109284-ci0-ui74751-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109284-ci0-ui74751-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p72748-pi109284-ci0-ui74751-s125x125.jpg"
+        }],
+        "biq_score": 92,
+        "curated_review_count": 947
+    }, {
+        "id": "75786",
+        "name": "Nokia X",
+        "brand": "Nokia",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "6.66",
+        "rating_count": 127,
+        "review_count": 24,
+        "stock_info": "In Stock",
+        "deal_count": 12,
+        "store_count": 12,
+        "min_price": "4999.00",
+        "min_price_str": "4,999",
+        "key_features": [
+            ["OS", "Android, v4.1.2 (Jelly Bean)", "Android, v4.1.2 (Jelly Bean) Operating System"],
+            ["Screen", "4 inches Screen", "4 inches Screen"],
+            ["Memory", "512 MB RAM, 4 GB ROM", "512 MB RAM, 4 GB ROM"],
+            ["CPU", "1 GHz, Dual core Cortex-A5", "1 GHz, Dual core Cortex-A5 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "3.0 Megapixels", "3.0 MP Primary Camera"],
+            ["Talk time", "Upto 13 hrs 20 min (2G) / Upto 10 hrs 30 min (3G)", "Upto 13 hrs 20 min (2G) / Upto 10 hrs 30 min (3G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB", "4 GB Internal Storage"],
+            ["3G", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Up to 408 hrs (2G)", "Up to 408 hrs (2G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/nokia-x-75786/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/b3/89/b38960eb0344f1da16e5ca366417f6a9.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/f6/05/f6051fdde5dde56039c836f3f8112b3d.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/93/c2/93c23c4082b0e03bd0cd8aba40f16aa1.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/02/d1/02d18de0b4d4e9dedf5e624189eafc3a.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105077-ci0-ui70544-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105077-ci0-ui70544-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105077-ci0-ui70544-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105077-ci0-ui70544-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105077-ci0-ui70544-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105078-ci0-ui70545-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105078-ci0-ui70545-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105078-ci0-ui70545-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105078-ci0-ui70545-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p75786-pi105078-ci0-ui70545-s125x125.jpg"
+        }],
+        "biq_score": 61,
+        "curated_review_count": 656
+    }, {
+        "id": "41271",
+        "name": "LG Nexus 5 16 GB",
+        "brand": "LG",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.66",
+        "rating_count": 79,
+        "review_count": 32,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "20999.00",
+        "min_price_str": "20,999",
+        "key_features": [
+            ["OS", "Android, v4.4 (KitKat), Upgradable to Android 5.0 (Lollipop)", "Android, v4.4 (KitKat), Upgradable to Android 5.0 (Lollipop) Operating System"],
+            ["Screen", "4.95 inches Screen", "4.95 inches Screen"],
+            ["Memory", "2 GB RAM, 16 GB ROM", "2 GB RAM, 16 GB ROM"],
+            ["CPU", "2.26 GHz, Quad Core", "2.26 GHz, Quad Core Processor"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 17 hrs (2G)", "Upto 17 hrs (2G) Talk time"],
+            ["Secondary Camera", "1.3 Megapixels", "1.3 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, Hotspot", "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, Hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 300 hrs (2G)", "Upto 300 hrs (2G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/lg-nexus-5-16-gb-41271/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/36/fc/36fc5d95b3b47f18d118ec07155c52e9.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/bf/4d/bf4d18e75c9fa841bee65527fa0f69c5.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/d5/35/d5358615c72af402982a8ce776065c53.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/66/fe/66fe71f201df1bfe6ebbfb7257ab8555.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109038-ci0-ui74505-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109038-ci0-ui74505-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109038-ci0-ui74505-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109038-ci0-ui74505-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109038-ci0-ui74505-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109039-ci0-ui74506-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109039-ci0-ui74506-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109039-ci0-ui74506-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109039-ci0-ui74506-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109039-ci0-ui74506-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109040-ci0-ui74507-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109040-ci0-ui74507-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109040-ci0-ui74507-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109040-ci0-ui74507-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109040-ci0-ui74507-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109041-ci0-ui74508-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109041-ci0-ui74508-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109041-ci0-ui74508-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109041-ci0-ui74508-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109041-ci0-ui74508-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109042-ci0-ui74509-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109042-ci0-ui74509-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109042-ci0-ui74509-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109042-ci0-ui74509-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p41271-pi109042-ci0-ui74509-s125x125.jpg"
+        }],
+        "biq_score": 100,
+        "curated_review_count": 1199
+    }, {
+        "id": "85385",
+        "name": "Nokia Lumia 720",
+        "brand": "Nokia",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.63",
+        "rating_count": 124,
+        "review_count": 46,
+        "stock_info": "In Stock",
+        "deal_count": 7,
+        "store_count": 7,
+        "min_price": "18299.00",
+        "min_price_str": "18,299",
+        "key_features": [
+            ["OS", "Windows  8", "Windows  8 Operating System"],
+            ["Screen", "4.3 inches Screen", "4.3 inches Screen"],
+            ["Memory", "512 MB RAM, 8 GB ROM", "512 MB RAM, 8 GB ROM"],
+            ["CPU", "1 GHz Dual Core", "1 GHz Dual Core Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "6.7 Megapixels", "6.7 MP Primary Camera"],
+            ["Talk time", "Upto 23 hrs 20 min (2G) / Upto 13 hrs 20 min (3G)", "Upto 23 hrs 20 min (2G) / Upto 13 hrs 20 min (3G) Talk time"],
+            ["Secondary Camera", "1.3 Megapixels", "1.3 MP Secondary Camera"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "8 GB", "8 GB Internal Storage"],
+            ["3G", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA", "21.1 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n", "Wi-Fi 802.11 a/b/g/n Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 520 hrs (3G)", "Upto 520 hrs (3G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/nokia-lumia-720-85385/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/6b/1a/6b1a47e5c813c7a21a509cd82ccd564c.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/63/fc/63fcbd29f80df10778f0c60e83a45428.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/2a/21/2a21b57d4a24ae0cb330e3caf01cfb34.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/ac/93/ac93f741cc5e1bc4d2f0a8dafdf3709c.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102708-ci0-ui68175-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102708-ci0-ui68175-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102708-ci0-ui68175-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102708-ci0-ui68175-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102708-ci0-ui68175-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102709-ci0-ui68176-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102709-ci0-ui68176-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102709-ci0-ui68176-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102709-ci0-ui68176-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102709-ci0-ui68176-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102710-ci0-ui68177-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102710-ci0-ui68177-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102710-ci0-ui68177-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102710-ci0-ui68177-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102710-ci0-ui68177-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102711-ci0-ui68178-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102711-ci0-ui68178-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102711-ci0-ui68178-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102711-ci0-ui68178-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p85385-pi102711-ci0-ui68178-s125x125.jpg"
+        }],
+        "biq_score": 82,
+        "curated_review_count": 158
+    }, {
+        "id": "43569",
+        "name": "Samsung Galaxy S5",
+        "brand": "Samsung",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.89",
+        "rating_count": 83,
+        "review_count": 33,
+        "stock_info": "In Stock",
+        "deal_count": 8,
+        "store_count": 8,
+        "min_price": "22999.00",
+        "min_price_str": "22,999",
+        "key_features": [
+            ["OS", "Android, v4.4.2 (KitKat), upgradable to v5.0 (Lollipop)", "Android, v4.4.2 (KitKat), upgradable to v5.0 (Lollipop) Operating System"],
+            ["Screen", "5.2 inches Screen", "5.2 inches Screen"],
+            ["Memory", "2GB RAM, 16 GB ROM", "2GB RAM, 16 GB ROM"],
+            ["CPU", "2.5 GHz, Quad Core Krait 400", "2.5 GHz, Quad Core Krait 400 Processor"],
+            ["Expandable", "Micro SD, Upto 128 GB", "Micro SD, Upto 128 GB Expandable Storage"],
+            ["Camera", "16.0 Megapixels", "16.0 MP Primary Camera"],
+            ["Talk time", "Upto 21 hrs (2G)", "Upto 21 hrs (2G) Talk time"],
+            ["Secondary Camera", "3.2 Megapixels", "3.2 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "42.2 Mbps HSDPA, 5.76 Mbps HSUPA", "42.2 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Hotspot", "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Up to 390 hrs (2G)", "Up to 390 hrs (2G) Standby Time"]
+        ],
+        "url": "http://buyingiq.com/p/samsung-galaxy-s5-43569/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/64/5b/645b8549f4765d3a53aaf5c511b49f08.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/3e/bf/3ebf6cb205f5b0f1c7592850b8af25ff.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/f2/f3/f2f3649aaf8b0a1edebe09d7d534f4b8.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/05/8b/058b8774b5be1e67e7f2645bdeb6847f.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102833-ci0-ui68300-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102833-ci0-ui68300-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102833-ci0-ui68300-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102833-ci0-ui68300-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102833-ci0-ui68300-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102834-ci0-ui68301-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102834-ci0-ui68301-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102834-ci0-ui68301-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102834-ci0-ui68301-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102834-ci0-ui68301-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102835-ci0-ui68302-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102835-ci0-ui68302-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102835-ci0-ui68302-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102835-ci0-ui68302-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102835-ci0-ui68302-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102836-ci0-ui68303-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102836-ci0-ui68303-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102836-ci0-ui68303-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102836-ci0-ui68303-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102836-ci0-ui68303-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102837-ci0-ui68304-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102837-ci0-ui68304-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102837-ci0-ui68304-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102837-ci0-ui68304-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102837-ci0-ui68304-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102838-ci0-ui68305-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102838-ci0-ui68305-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102838-ci0-ui68305-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102838-ci0-ui68305-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p43569-pi102838-ci0-ui68305-s125x125.jpg"
+        }],
+        "biq_score": 76,
+        "curated_review_count": 601
+    }, {
+        "id": "31113",
+        "name": "Sony Xperia Z2",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "9.15",
+        "rating_count": 67,
+        "review_count": 23,
+        "stock_info": "In Stock",
+        "deal_count": 10,
+        "store_count": 10,
+        "min_price": "26996.00",
+        "min_price_str": "26,996",
+        "key_features": [
+            ["OS", "Android v4.4.2 (KitKat)", "Android v4.4.2 (KitKat) Operating System"],
+            ["Screen", "5.2 inches Screen", "5.2 inches Screen"],
+            ["Memory", "3 GB RAM, 16 GB ROM", "3 GB RAM, 16 GB ROM"],
+            ["CPU", "2.3 GHz, Quad Core Krait 400", "2.3 GHz, Quad Core Krait 400 Processor"],
+            ["Expandable", "Micro SD, Upto 128 GB", "Micro SD, Upto 128 GB Expandable Storage"],
+            ["Camera", "20.7 Megapixels", "20.7 MP Primary Camera"],
+            ["Talk time", "Upto 15 hrs (2G) / Upto 19 hrs (3G)", "Upto 15 hrs (2G) / Upto 19 hrs (3G) Talk time"],
+            ["Secondary Camera", "2.2 Megapixels", "2.2 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "42 Mbps HSDPA, 5.8 Mbps HSUPA", "42 Mbps HSDPA, 5.8 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 690 hrs (2G), Upto 740 hrs (3G)", "Upto 690 hrs (2G), Upto 740 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-z2-31113/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/7d/88/7d88f058006afbb483f0d32383cd8a28.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/e1/fc/e1fc8bc090ecd948064aec7453fdfca3.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/7d/47/7d471f13a00c73c57002fb951b0fd645.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/38/6a/386ade93b2fed6f33ec71202de8b3c98.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103435-ci0-ui68902-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103435-ci0-ui68902-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103435-ci0-ui68902-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103435-ci0-ui68902-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103435-ci0-ui68902-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103436-ci0-ui68903-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103436-ci0-ui68903-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103436-ci0-ui68903-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103436-ci0-ui68903-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103436-ci0-ui68903-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103437-ci0-ui68904-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103437-ci0-ui68904-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103437-ci0-ui68904-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103437-ci0-ui68904-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103437-ci0-ui68904-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103438-ci0-ui68905-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103438-ci0-ui68905-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103438-ci0-ui68905-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103438-ci0-ui68905-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103438-ci0-ui68905-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103439-ci0-ui68906-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103439-ci0-ui68906-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103439-ci0-ui68906-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103439-ci0-ui68906-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103439-ci0-ui68906-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103440-ci0-ui68907-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103440-ci0-ui68907-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103440-ci0-ui68907-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103440-ci0-ui68907-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p31113-pi103440-ci0-ui68907-s125x125.jpg"
+        }],
+        "biq_score": 74,
+        "curated_review_count": 248
+    }, {
+        "id": "25807",
+        "name": "Nokia XL Dual",
+        "brand": "Nokia",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "6.95",
+        "rating_count": 85,
+        "review_count": 18,
+        "stock_info": "In Stock",
+        "deal_count": 11,
+        "store_count": 11,
+        "min_price": "7099.00",
+        "min_price_str": "7,099",
+        "key_features": [
+            ["OS", "Android v4.1.2 (Jelly Bean)", "Android v4.1.2 (Jelly Bean) Operating System"],
+            ["Screen", "5 inches Screen", "5 inches Screen"],
+            ["Memory", "768 MB RAM, 4 GB ROM", "768 MB RAM, 4 GB ROM"],
+            ["CPU", "1 GHz, Dual Core Cortex-A5", "1 GHz, Dual Core Cortex-A5 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Talk time", "Upto 16 hrs (2G), Upto 13 hrs (3G)", "Upto 16 hrs (2G), Upto 13 hrs (3G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Secondary Camera", "2.0 Megapixels", "2.0 MP Secondary Camera"],
+            ["Resolution", "800 x 480 Pixels", "800 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB", "4 GB Internal Storage"],
+            ["3G", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 720 hrs (2G)", "Upto 720 hrs (2G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/nokia-xl-dual-25807/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/fd/5b/fd5b36e3d3ee16463870ac2522f699c3.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/bd/14/bd14d6e044c3cd41444c7b6aea9c3179.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/ce/23/ce23fe717328085e7a8d8e24469891c1.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/72/63/7263101f9636e63caffe549a426cf546.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109583-ci0-ui75050-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109583-ci0-ui75050-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109583-ci0-ui75050-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109583-ci0-ui75050-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109583-ci0-ui75050-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109584-ci0-ui75051-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109584-ci0-ui75051-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109584-ci0-ui75051-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109584-ci0-ui75051-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109584-ci0-ui75051-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109585-ci0-ui75052-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109585-ci0-ui75052-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109585-ci0-ui75052-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109585-ci0-ui75052-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109585-ci0-ui75052-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109586-ci0-ui75053-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109586-ci0-ui75053-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109586-ci0-ui75053-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109586-ci0-ui75053-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p25807-pi109586-ci0-ui75053-s125x125.jpg"
+        }],
+        "biq_score": 69,
+        "curated_review_count": 1081
+    }, {
+        "id": "12016",
+        "name": "Samsung Galaxy S3 i9300",
+        "brand": "Samsung",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "8.04",
+        "rating_count": 139,
+        "review_count": 25,
+        "stock_info": "In Stock",
+        "deal_count": 9,
+        "store_count": 9,
+        "min_price": "11499.00",
+        "min_price_str": "11,499",
+        "key_features": [
+            ["OS", "Android v4.0.4 (Ice Cream Sandwich), upgradeable to 4.1.2 (Jelly Bean)", "Android v4.0.4 (Ice Cream Sandwich), upgradeable to 4.1.2 (Jelly Bean) Operating System"],
+            ["Screen", "4.8 inches Screen", "4.8 inches Screen"],
+            ["Memory", "1 GB RAM, 16 GB ROM", "1 GB RAM, 16 GB ROM"],
+            ["CPU", "1.4 GHz, Quad Core Cortex-A9", "1.4 GHz, Quad Core Cortex-A9 Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "8.0 Megapixels", "8.0 MP Primary Camera"],
+            ["Talk time", "Upto 21 hrs 40 min (2G) / Upto 11 hrs 40 min (3G)", "Upto 21 hrs 40 min (2G) / Upto 11 hrs 40 min (3G) Talk time"],
+            ["Secondary Camera", "1.9 Megapixels", "1.9 MP Secondary Camera"],
+            ["Resolution", "1280 x 720 Pixels", "1280 x 720 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 590 hrs (2G), Upto 790 hrs (3G)", "Upto 590 hrs (2G), Upto 790 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/samsung-galaxy-s3-i9300-12016/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/37/5a/375ab95f7cb1f6a723ebf4dd22813aa4.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/81/e7/81e77fe8451faa626dfcc13b8d1cc9eb.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/57/ba/57bacd1c22383f78572e0db622275de8.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/23/f3/23f3deae5f18c19573de7fb1ad201aed.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108654-ci0-ui74121-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108654-ci0-ui74121-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108654-ci0-ui74121-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108654-ci0-ui74121-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108654-ci0-ui74121-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108655-ci0-ui74122-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108655-ci0-ui74122-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108655-ci0-ui74122-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108655-ci0-ui74122-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108655-ci0-ui74122-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108656-ci0-ui74123-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108656-ci0-ui74123-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108656-ci0-ui74123-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108656-ci0-ui74123-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108656-ci0-ui74123-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108657-ci0-ui74124-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108657-ci0-ui74124-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108657-ci0-ui74124-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108657-ci0-ui74124-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108657-ci0-ui74124-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108658-ci0-ui74125-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108658-ci0-ui74125-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108658-ci0-ui74125-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108658-ci0-ui74125-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108658-ci0-ui74125-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108659-ci0-ui74126-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108659-ci0-ui74126-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108659-ci0-ui74126-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108659-ci0-ui74126-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p12016-pi108659-ci0-ui74126-s125x125.jpg"
+        }],
+        "biq_score": 72,
+        "curated_review_count": 294
+    }, {
+        "id": "48131",
+        "name": "Sony Xperia E",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.35",
+        "rating_count": 207,
+        "review_count": 23,
+        "stock_info": "In Stock",
+        "deal_count": 9,
+        "store_count": 9,
+        "min_price": "5999.00",
+        "min_price_str": "5,999",
+        "key_features": [
+            ["OS", "Android v4.1 (Jelly Bean)", "Android v4.1 (Jelly Bean) Operating System"],
+            ["Screen", "3.5 inches Screen", "3.5 inches Screen"],
+            ["Memory", "512 MB RAM, 4 GB ROM", "512 MB RAM, 4 GB ROM"],
+            ["CPU", "1 GHz, Cortex-A5", "1 GHz, Cortex-A5 Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "3.2 Megapixels", "3.2 MP Primary Camera"],
+            ["Talk time", "Upto 6 hrs (2G), Upto 6 hrs (3G)", "Upto 6 hrs (2G), Upto 6 hrs (3G) Talk time"],
+            ["Resolution", "480 x 320 Pixels", "480 x 320 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB (2 GB user available)", "4 GB (2 GB user available) Internal Storage"],
+            ["3G", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA", "7.2 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 b/g/n, Wi-Fi Hotspot", "Wi-Fi 802.11 b/g/n, Wi-Fi Hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 530 hrs (2G), Upto 530 hrs (3G)", "Upto 530 hrs (2G), Upto 530 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-e-48131/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/35/46/3546b48956e61be7a8d25300bec8b75b.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/b7/6a/b76a39a75148aa35a0cded3771f48e66.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/89/01/89011e65a58977eaaea8cff20a771ec6.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/29/a1/29a1feffdcacacbc543b9bd799462509.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102622-ci0-ui68089-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102622-ci0-ui68089-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102622-ci0-ui68089-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102622-ci0-ui68089-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102622-ci0-ui68089-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102623-ci0-ui68090-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102623-ci0-ui68090-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102623-ci0-ui68090-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102623-ci0-ui68090-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102623-ci0-ui68090-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102624-ci0-ui68091-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102624-ci0-ui68091-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102624-ci0-ui68091-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102624-ci0-ui68091-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102624-ci0-ui68091-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102625-ci0-ui68092-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102625-ci0-ui68092-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102625-ci0-ui68092-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102625-ci0-ui68092-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p48131-pi102625-ci0-ui68092-s125x125.jpg"
+        }],
+        "biq_score": 64,
+        "curated_review_count": 278
+    }, {
+        "id": "24583",
+        "name": "Sony Xperia Z1",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "9.05",
+        "rating_count": 127,
+        "review_count": 13,
+        "stock_info": "In Stock",
+        "deal_count": 11,
+        "store_count": 11,
+        "min_price": "17499.00",
+        "min_price_str": "17,499",
+        "key_features": [
+            ["OS", "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)", "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat) Operating System"],
+            ["Screen", "5 inches Screen", "5 inches Screen"],
+            ["Memory", "2 GB RAM, 16 GB ROM", "2 GB RAM, 16 GB ROM"],
+            ["CPU", "2.2 GHz, Quad Core Krait 400", "2.2 GHz, Quad Core Krait 400 Processor"],
+            ["Expandable", "Micro SD, Upto 64 GB", "Micro SD, Upto 64 GB Expandable Storage"],
+            ["Camera", "20.7 Megapixels", "20.7 MP Primary Camera"],
+            ["Talk time", "Upto 14 hrs (2G) / Upto 15 hrs (3G)", "Upto 14 hrs (2G) / Upto 15 hrs (3G) Talk time"],
+            ["Secondary Camera", "2.0 Megapixels", "2.0 MP Secondary Camera"],
+            ["Resolution", "1920 x 1080 Pixels", "1920 x 1080 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "16 GB", "16 GB Internal Storage"],
+            ["3G", "42 Mbps HSDPA, 5.76 Mbps HSUPA", "42 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 880 hrs (2G), Upto 850 hrs (3G)", "Upto 880 hrs (2G), Upto 850 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-z1-24583/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/34/9e/349e1ca9d94d3388b877946b0d808d97.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/96/d6/96d6d18902c6f33d4cb15e12456bd48b.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/cb/5f/cb5f813ab94b0573db94140d2dc606a9.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/f0/f6/f0f65705b4ebf9d003011532e2ee0ba1.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103369-ci0-ui68836-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103369-ci0-ui68836-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103369-ci0-ui68836-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103369-ci0-ui68836-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103369-ci0-ui68836-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103370-ci0-ui68837-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103370-ci0-ui68837-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103370-ci0-ui68837-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103370-ci0-ui68837-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103370-ci0-ui68837-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103371-ci0-ui68838-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103371-ci0-ui68838-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103371-ci0-ui68838-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103371-ci0-ui68838-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103371-ci0-ui68838-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103372-ci0-ui68839-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103372-ci0-ui68839-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103372-ci0-ui68839-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103372-ci0-ui68839-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103372-ci0-ui68839-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103373-ci0-ui68840-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103373-ci0-ui68840-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103373-ci0-ui68840-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103373-ci0-ui68840-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103373-ci0-ui68840-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103374-ci0-ui68841-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103374-ci0-ui68841-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103374-ci0-ui68841-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103374-ci0-ui68841-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p24583-pi103374-ci0-ui68841-s125x125.jpg"
+        }],
+        "biq_score": 44,
+        "curated_review_count": 226
+    }, {
+        "id": "64446",
+        "name": "Sony Xperia M Dual SIM",
+        "brand": "Sony",
+        "category": "Mobiles",
+        "category_id": 1,
+        "avg_rating": "7.68",
+        "rating_count": 97,
+        "review_count": 12,
+        "stock_info": "In Stock",
+        "deal_count": 11,
+        "store_count": 11,
+        "min_price": "8990.00",
+        "min_price_str": "8,990",
+        "key_features": [
+            ["OS", "Android v4.2.2 (Jelly Bean), Upgradable to v4.3 (Jelly Bean)", "Android v4.2.2 (Jelly Bean), Upgradable to v4.3 (Jelly Bean) Operating System"],
+            ["Screen", "4 inches Screen", "4 inches Screen"],
+            ["Memory", "1 GB RAM, 4 GB ROM", "1 GB RAM, 4 GB ROM"],
+            ["CPU", "1 GHz, Dual Core Krait", "1 GHz, Dual Core Krait Processor"],
+            ["Expandable", "Micro SD, Upto 32 GB", "Micro SD, Upto 32 GB Expandable Storage"],
+            ["Camera", "5.0 Megapixels", "5.0 MP Primary Camera"],
+            ["Talk time", "Upto 10 hrs (2G) / Upto 9 hrs (3G)", "Upto 10 hrs (2G) / Upto 9 hrs (3G) Talk time"],
+            ["Dual SIM", "Yes", "Dual SIM Support"],
+            ["Secondary Camera", "VGA", "VGA Secondary Camera"],
+            ["Resolution", "854 x 480 Pixels", "854 x 480 Pixels Resolution Screen"],
+            ["Inbuilt Storage", "4 GB", "4 GB Internal Storage"],
+            ["3G", "21 Mbps HSDPA, 5.76 Mbps HSUPA", "21 Mbps HSDPA, 5.76 Mbps HSUPA 3G Connectivity"],
+            ["Wifi", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot", "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, Wi-Fi hotspot Wifi"],
+            ["GPRS", "Yes", "GPRS Available"],
+            ["Standby Time", "Upto 522 hrs (2G), Upto 454 hrs (3G)", "Upto 522 hrs (2G), Upto 454 hrs (3G) Standby Time"],
+            ["Radio FM", "Yes", "FM Radio"]
+        ],
+        "url": "http://buyingiq.com/p/sony-xperia-m-dual-sim-64446/",
+        "images_o": {
+            "s": "http://biqcdn.com.s3.amazonaws.com/m/cache/6c/77/6c779b6332490e3228153b20ef527fb5.jpg",
+            "m": "http://biqcdn.com.s3.amazonaws.com/m/cache/63/d2/63d2fa7adf5f070eeebd44f884a4e96d.jpg",
+            "l": "http://biqcdn.com.s3.amazonaws.com/m/cache/ef/79/ef79b87a85b4822a3d6e2dd2502b423e.jpg",
+            "xl": "http://biqcdn.com.s3.amazonaws.com/m/cache/2a/a3/2aa3ff226d26fc090dfdd16a1cb43b49.jpg"
+        },
+        "images": [{
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108812-ci0-ui74279-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108812-ci0-ui74279-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108812-ci0-ui74279-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108812-ci0-ui74279-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108812-ci0-ui74279-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108813-ci0-ui74280-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108813-ci0-ui74280-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108813-ci0-ui74280-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108813-ci0-ui74280-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108813-ci0-ui74280-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108814-ci0-ui74281-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108814-ci0-ui74281-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108814-ci0-ui74281-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108814-ci0-ui74281-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108814-ci0-ui74281-s125x125.jpg"
+        }, {
+            "40x40": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108815-ci0-ui74282-s40x40.jpg",
+            "360x360": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108815-ci0-ui74282-s360x360.jpg",
+            "180x180": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108815-ci0-ui74282-s180x180.jpg",
+            "75x75": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108815-ci0-ui74282-s75x75.jpg",
+            "125x125": "http://biqcdn.com.s3.amazonaws.com/m/img/p/p64446-pi108815-ci0-ui74282-s125x125.jpg"
+        }],
+        "biq_score": 84,
+        "curated_review_count": 391
+    }],
+    "prev": "",
+    "next": "page=2&tags=mobiles"
+}

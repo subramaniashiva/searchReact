@@ -1,9 +1,10 @@
 var CommentList = React.createClass({displayName: "CommentList",
     render: function() {
+      console.log(this.props.data);
         var commentNodes = this.props.data.map(function (comment) {
             return (
-            React.createElement(Comment, {author: comment.author}, 
-                comment.text
+            React.createElement(Comment, {author: comment.name}, 
+                comment.brand
             )
             );
         });
@@ -45,7 +46,7 @@ var Comment = React.createClass({displayName: "Comment",
         React.createElement("h2", {className: "commentAuthor"}, 
           this.props.author
         ), 
-        React.createElement("span", {dangerouslySetInnerHTML: {__html: marked(this.props.children.toString(), {sanitize: true})}})
+        React.createElement("span", null, this.props.children)
       )
     );
   }
@@ -57,7 +58,7 @@ var CommentBox = React.createClass({displayName: "CommentBox",
           dataType: 'json',
           cache: false,
           success: function(data) {
-            this.setState({data: data});
+            this.setState({data: data.products});
           }.bind(this),
           error: function(xhr, status, err) {
             console.error(this.props.url, status, err.toString());
