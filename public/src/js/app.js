@@ -140,7 +140,7 @@ var ProductContainer = React.createClass({
         //setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
     render: function() {
-        return ( <div className = "productContainer">
+        return ( <div className = "product-container">
             <PageBar data={this.state.data} />
             <ProductList data={this.state.data}/>
             <CommentForm onCommentSubmit={this.handleCommentSubmit} />
@@ -148,4 +148,69 @@ var ProductContainer = React.createClass({
         );
     }
 });
+
+var SearchContainer = React.createClass({
+    loadProductsFromServer: function() {
+        $.ajax({
+          url: this.props.url,
+          dataType: 'json',
+          cache: false,
+          success: function(data) {
+            this.setState({data: data.products});
+          }.bind(this),
+          error: function(xhr, status, err) {
+            console.error(this.props.url, status, err.toString());
+          }.bind(this)
+        });
+    },
+    getInitialState: function(){
+        return { searchString: '',
+                  data: []};
+    },
+    handleChange: function(e){
+
+        // If you comment out this line, the text box will not change its value.
+        // This is because in React, an input cannot change independently of the value
+        // that was assigned to it. In our case this is this.state.searchString.
+        this.loadProductsFromServer();
+        this.setState({searchString:e.target.value});
+    },
+    render: function() {
+        var searchResult = this.state.data,
+            searchString = this.state.searchString.trim().toLowerCase();
+
+        if(searchString.length > 0){
+            // We are searching. Filter the results.
+            searchResult = searchResult.filter(function(l){
+                return l.name.toLowerCase().match( searchString );
+            });
+
+        }
+        return (<div>
+                  <input id="search-box" type="text" value={this.state.searchString} onChange={this.handleChange} className="form-control search-input ui-autocomplete-input" placeholder="Find the best mobile at today's best price." autocomplete="off" />
+                  <span className="glyphicon glyphicon-search form-control-feedback"></span>
+                  <ul id="search-list" className="search-list"> 
+                      { searchResult.map(function(l){
+                          return <li>
+                            <a href={l.url}>
+                              <div className="pull-left search-list-img"><img src={l.images_o.s} /></div>
+                              <div className="pull-left"><span className="search-list-name">{l.name}</span> <br/>from <span className="search-list-desc">{l.min_price_str}</span> in <span className="search-list-desc">{l.store_count}</span> stores</div>
+                            </a></li>
+                      }) }
+                  </ul>
+                </div>);
+
+    }
+});
 React.render(<ProductContainer url="products.json" />, document.getElementById('content'));
+React.render(<SearchContainer url="products.json" />, document.getElementById('search-bar'))
+
+// Listening to search box press event and toggle the search result accordingly
+$("#search-box").on("keyup", function(event) {
+  console.log(this.value);
+  if(this.value === "") {
+    $("#search-list").hide();
+  } else {
+    $("#search-list").show();
+  }
+});

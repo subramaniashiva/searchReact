@@ -163,3 +163,39 @@ ul {
   color: #999;
 }
 /* Product Styles End */
+.search-list {
+  position: absolute;
+  z-index: 1000;
+  background: #efefef;
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+  width: 500px;
+}
+.search-list:empty {
+  display: none !important;
+}
+.search-list li {
+  clear: both;
+  height: 70px;
+  padding: 0 15px;
+}
+.search-list li a{
+  display: block;
+  padding: 15px 0;
+  color: inherit;
+}
+.search-list li:hover {
+  background: #ebeff2;
+}
+.search-list-img {
+  margin-right: 10px;
+}
+.search-list-name {
+  color: #255176;
+  font-weight: bold;
+  padding-bottom: 1px;
+}
+.search-list-desc {
+  font-weight: bold;
+}

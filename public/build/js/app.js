@@ -140,7 +140,7 @@ var ProductContainer = React.createClass({displayName: "ProductContainer",
         //setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
     render: function() {
-        return ( React.createElement("div", {className: "productContainer"}, 
+        return ( React.createElement("div", {className: "product-container"}, 
             React.createElement(PageBar, {data: this.state.data}), 
             React.createElement(ProductList, {data: this.state.data}), 
             React.createElement(CommentForm, {onCommentSubmit: this.handleCommentSubmit})
@@ -148,4 +148,69 @@ var ProductContainer = React.createClass({displayName: "ProductContainer",
         );
     }
 });
+
+var SearchContainer = React.createClass({displayName: "SearchContainer",
+    loadProductsFromServer: function() {
+        $.ajax({
+          url: this.props.url,
+          dataType: 'json',
+          cache: false,
+          success: function(data) {
+            this.setState({data: data.products});
+          }.bind(this),
+          error: function(xhr, status, err) {
+            console.error(this.props.url, status, err.toString());
+          }.bind(this)
+        });
+    },
+    getInitialState: function(){
+        return { searchString: '',
+                  data: []};
+    },
+    handleChange: function(e){
+
+        // If you comment out this line, the text box will not change its value.
+        // This is because in React, an input cannot change independently of the value
+        // that was assigned to it. In our case this is this.state.searchString.
+        this.loadProductsFromServer();
+        this.setState({searchString:e.target.value});
+    },
+    render: function() {
+        var searchResult = this.state.data,
+            searchString = this.state.searchString.trim().toLowerCase();
+
+        if(searchString.length > 0){
+            // We are searching. Filter the results.
+            searchResult = searchResult.filter(function(l){
+                return l.name.toLowerCase().match( searchString );
+            });
+
+        }
+        return (React.createElement("div", null, 
+                  React.createElement("input", {id: "search-box", type: "text", value: this.state.searchString, onChange: this.handleChange, className: "form-control search-input ui-autocomplete-input", placeholder: "Find the best mobile at today's best price.", autocomplete: "off"}), 
+                  React.createElement("span", {className: "glyphicon glyphicon-search form-control-feedback"}), 
+                  React.createElement("ul", {id: "search-list", className: "search-list"}, 
+                       searchResult.map(function(l){
+                          return React.createElement("li", null, 
+                            React.createElement("a", {href: l.url}, 
+                              React.createElement("div", {className: "pull-left search-list-img"}, React.createElement("img", {src: l.images_o.s})), 
+                              React.createElement("div", {className: "pull-left"}, React.createElement("span", {className: "search-list-name"}, l.name), " ", React.createElement("br", null), "from ", React.createElement("span", {className: "search-list-desc"}, l.min_price_str), " in ", React.createElement("span", {className: "search-list-desc"}, l.store_count), " stores")
+                            ))
+                      }) 
+                  )
+                ));
+
+    }
+});
 React.render(React.createElement(ProductContainer, {url: "products.json"}), document.getElementById('content'));
+React.render(React.createElement(SearchContainer, {url: "products.json"}), document.getElementById('search-bar'))
+
+// Listening to search box press event and toggle the search result accordingly
+$("#search-box").on("keyup", function(event) {
+  console.log(this.value);
+  if(this.value === "") {
+    $("#search-list").hide();
+  } else {
+    $("#search-list").show();
+  }
+});
