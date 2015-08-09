@@ -1,16 +1,18 @@
-var CommentList = React.createClass({
+var ProductList = React.createClass({
     render: function() {
-      console.log(this.props.data);
-        var commentNodes = this.props.data.map(function (comment) {
+        var productNodes = this.props.data.products.map(function (product) {
             return (
-            <Comment author={comment.name}>
-                {comment.brand}
-            </Comment>
+            <Product name={product.name} img={product.images_o.l} url={product.url} 
+              price={product.min_price_str} rating={product.avg_rating} 
+              deals={product.deal_count} ratingCount={product.rating_count}
+              keyFeatures={product.key_features.splice(0,6)}>
+                {product.brand}
+            </Product>
             );
         });
         return (
-            <div className="commentList">
-                {commentNodes}
+            <div className="productList">
+                {productNodes}
             </div>
         );
     }
@@ -39,26 +41,74 @@ var CommentForm = React.createClass({
     );
   }
 });
-var Comment = React.createClass({
+
+var PageBar = React.createClass({
   render: function() {
     return (
-      <div className="comment">
-        <h2 className="commentAuthor">
-          {this.props.author}
-        </h2>
-        <span>{this.props.children}</span>
+      <div className="page-bar">
+        Showing {this.props.data.products.length} of {this.props.data.total} Results
+      </div>
+      );
+    }
+});
+
+var Product = React.createClass({
+  render: function() {
+    return (
+      <div className="product col-md-3">
+        <a href={this.props.url}><img className="thumb-img" src={this.props.img} /></a>
+        <h5 className="product-name">
+          <a href={this.props.url}>{this.props.name}</a>
+        </h5>
+        <div className="price-block pull-left">
+          <div className="price">
+            BEST PRICE <span className="value">Rs. {this.props.price}</span>
+          </div>
+          <div className="deals">
+            {this.props.deals} deals
+          </div>
+        </div>
+        <div className="pull-right">
+          <div className="rating">
+            {this.props.rating}
+          </div>
+          <div className="total-rating">
+              {this.props.ratingCount} votes
+          </div>
+        </div>
+        <div className="clearfix"></div>
+        <ProductFeatures keyFeatures={this.props.keyFeatures}>
+        </ProductFeatures>
       </div>
     );
   }
 });
-var CommentBox = React.createClass({
-    loadCommentsFromServer: function() {
+
+var ProductFeatures = React.createClass({
+  render: function() {
+    var featureNodes = this.props.keyFeatures.map(function (features) {
+      return (
+      <li>
+          {(features[1].split(','))[0]}
+      </li>
+      );
+    });
+    return (
+      <div className="features-list">
+        {featureNodes}
+      </div>
+
+      );
+  }
+});
+var ProductContainer = React.createClass({
+    loadProductsFromServer: function() {
         $.ajax({
           url: this.props.url,
           dataType: 'json',
           cache: false,
           success: function(data) {
-            this.setState({data: data.products});
+            this.setState({data: data});
           }.bind(this),
           error: function(xhr, status, err) {
             console.error(this.props.url, status, err.toString());
@@ -83,19 +133,19 @@ var CommentBox = React.createClass({
         });*/
     },
     getInitialState: function() {
-        return {data: []};
+        return {data: {products: []}};
     },
     componentDidMount: function() {
-        this.loadCommentsFromServer();
+        this.loadProductsFromServer();
         //setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
     render: function() {
-        return ( <div className = "commentBox">
-            <h1> Comments </h1>
-            <CommentList data={this.state.data}/>
+        return ( <div className = "productContainer">
+            <PageBar data={this.state.data} />
+            <ProductList data={this.state.data}/>
             <CommentForm onCommentSubmit={this.handleCommentSubmit} />
             </div>
         );
     }
 });
-React.render(<CommentBox url="comments.json" />, document.getElementById('content'));
+React.render(<ProductContainer url="products.json" />, document.getElementById('content'));

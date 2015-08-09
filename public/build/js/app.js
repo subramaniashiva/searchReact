@@ -1,16 +1,18 @@
-var CommentList = React.createClass({displayName: "CommentList",
+var ProductList = React.createClass({displayName: "ProductList",
     render: function() {
-      console.log(this.props.data);
-        var commentNodes = this.props.data.map(function (comment) {
+        var productNodes = this.props.data.products.map(function (product) {
             return (
-            React.createElement(Comment, {author: comment.name}, 
-                comment.brand
+            React.createElement(Product, {name: product.name, img: product.images_o.l, url: product.url, 
+              price: product.min_price_str, rating: product.avg_rating, 
+              deals: product.deal_count, ratingCount: product.rating_count, 
+              keyFeatures: product.key_features.splice(0,6)}, 
+                product.brand
             )
             );
         });
         return (
-            React.createElement("div", {className: "commentList"}, 
-                commentNodes
+            React.createElement("div", {className: "productList"}, 
+                productNodes
             )
         );
     }
@@ -39,26 +41,74 @@ var CommentForm = React.createClass({displayName: "CommentForm",
     );
   }
 });
-var Comment = React.createClass({displayName: "Comment",
+
+var PageBar = React.createClass({displayName: "PageBar",
   render: function() {
     return (
-      React.createElement("div", {className: "comment"}, 
-        React.createElement("h2", {className: "commentAuthor"}, 
-          this.props.author
+      React.createElement("div", {className: "page-bar"}, 
+        "Showing ", this.props.data.products.length, " of ", this.props.data.total, " Results"
+      )
+      );
+    }
+});
+
+var Product = React.createClass({displayName: "Product",
+  render: function() {
+    return (
+      React.createElement("div", {className: "product col-md-3"}, 
+        React.createElement("a", {href: this.props.url}, React.createElement("img", {className: "thumb-img", src: this.props.img})), 
+        React.createElement("h5", {className: "product-name"}, 
+          React.createElement("a", {href: this.props.url}, this.props.name)
         ), 
-        React.createElement("span", null, this.props.children)
+        React.createElement("div", {className: "price-block pull-left"}, 
+          React.createElement("div", {className: "price"}, 
+            "BEST PRICE ", React.createElement("span", {className: "value"}, "Rs. ", this.props.price)
+          ), 
+          React.createElement("div", {className: "deals"}, 
+            this.props.deals, " deals"
+          )
+        ), 
+        React.createElement("div", {className: "pull-right"}, 
+          React.createElement("div", {className: "rating"}, 
+            this.props.rating
+          ), 
+          React.createElement("div", {className: "total-rating"}, 
+              this.props.ratingCount, " votes"
+          )
+        ), 
+        React.createElement("div", {className: "clearfix"}), 
+        React.createElement(ProductFeatures, {keyFeatures: this.props.keyFeatures}
+        )
       )
     );
   }
 });
-var CommentBox = React.createClass({displayName: "CommentBox",
-    loadCommentsFromServer: function() {
+
+var ProductFeatures = React.createClass({displayName: "ProductFeatures",
+  render: function() {
+    var featureNodes = this.props.keyFeatures.map(function (features) {
+      return (
+      React.createElement("li", null, 
+          (features[1].split(','))[0]
+      )
+      );
+    });
+    return (
+      React.createElement("div", {className: "features-list"}, 
+        featureNodes
+      )
+
+      );
+  }
+});
+var ProductContainer = React.createClass({displayName: "ProductContainer",
+    loadProductsFromServer: function() {
         $.ajax({
           url: this.props.url,
           dataType: 'json',
           cache: false,
           success: function(data) {
-            this.setState({data: data.products});
+            this.setState({data: data});
           }.bind(this),
           error: function(xhr, status, err) {
             console.error(this.props.url, status, err.toString());
@@ -83,19 +133,19 @@ var CommentBox = React.createClass({displayName: "CommentBox",
         });*/
     },
     getInitialState: function() {
-        return {data: []};
+        return {data: {products: []}};
     },
     componentDidMount: function() {
-        this.loadCommentsFromServer();
+        this.loadProductsFromServer();
         //setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
     render: function() {
-        return ( React.createElement("div", {className: "commentBox"}, 
-            React.createElement("h1", null, " Comments "), 
-            React.createElement(CommentList, {data: this.state.data}), 
+        return ( React.createElement("div", {className: "productContainer"}, 
+            React.createElement(PageBar, {data: this.state.data}), 
+            React.createElement(ProductList, {data: this.state.data}), 
             React.createElement(CommentForm, {onCommentSubmit: this.handleCommentSubmit})
             )
         );
     }
 });
-React.render(React.createElement(CommentBox, {url: "comments.json"}), document.getElementById('content'));
+React.render(React.createElement(ProductContainer, {url: "products.json"}), document.getElementById('content'));

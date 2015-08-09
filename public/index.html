@@ -4,14 +4,53 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Hello React</title>
+    <title>Search Using React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
 </head>
 
 <body>
-    <div id="content"></div>
+    <div class="container-fluid">
+        <div id="header" class="row visible-lg-block visible-md-block">
+            <div class="container">
+              <div class="logo">
+                <a href="/"><img src="http://biqcdn.com.s3.amazonaws.com/s/www/img/logo.e95683141215.png"></a>
+              </div>
+              <div class="nav-category">
+                <a class="nav-button">All Categories<i class="fa fa-caret-down category-caret"></i>
+                <div class="clearfix"></div>
+                </a>
+              </div>
+              <form class="form-inline" role="form" method="GET" action="">
+                <div class="search-container form-group has-feedback">
+                    <input name="q" type="text" class="form-control search-input ui-autocomplete-input" placeholder="Find the best electronics at today's best price." autocomplete="off">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row filter-heading">
+            <h1>Phones</h1>
+          </div>
+          <div class="row search-result">
+            <div class="col-md-3">
+              <div class="sidebar">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                <div id="content">
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <script src="build/js/app.js"></script>
 </body>
 
